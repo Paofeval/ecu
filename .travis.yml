@@ -26,6 +26,8 @@ install:
 
 script: 
   - ./ohi-travis-tool.sh calculate_scores
+
+after_success:
   - ./ohi-travis-tool.sh push_scores
 
 after_failure:
