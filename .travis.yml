@@ -16,7 +16,7 @@ install:
 #  - ./travis-tool.sh install_deps
   - ./travis-tool.sh install_r zoo
   - ./travis-tool.sh install_r psych
-  - ./travis-tool.sh install_github git2r
+  - ./travis-tool.sh install_github ropensci/git2r
   - ./travis-tool.sh install_github ohi-science/rCharts
   - ./travis-tool.sh install_github ohi-science/ohicore
 
