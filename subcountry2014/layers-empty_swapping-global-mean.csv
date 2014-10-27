@@ -1,34 +1,28 @@
-"targets","layer","name","description","fld_value","units","filename","clip_n_ship_disag","clip_n_ship_disag_description","layer_gl","path_in","fld_id_num","fld_id_chr","fld_category","fld_year","fld_val_num","fld_val_chr","file_exists","year_min","year_max","val_min","val_max","val_0to1","flds_unused","flds_missing","rows_duplicated","num_ids_unique","data_na"
-"LE","le_wage_cur_adj_value","Modeled Livelihoods & Economies data","One of current or reference and base or adjusted value","value","value","le_wage_cur_adj_value_gl2014.csv","equal","global wage data were applied equally to all regions.","le_wage_cur_adj_value","~/github/ohi-global/eez2014/layers/le_wage_cur_adj_value.csv","cntry_key",,"sector",,"value",,TRUE,,,,,FALSE,,,,5,TRUE
-"LE","le_wage_cur_base_value","Modeled Livelihoods & Economies data","One of current or reference and base or adjusted value","value","value","le_wage_cur_base_value_gl2014.csv","equal","global wage data were applied equally to all regions.","le_wage_cur_base_value","~/github/ohi-global/eez2014/layers/le_wage_cur_base_value.csv","cntry_key",,"sector",,"value",,TRUE,,,,,FALSE,,,,5,TRUE
-"LE","le_wage_ref_adj_value","Modeled Livelihoods & Economies data","One of current or reference and base or adjusted value","value","value","le_wage_ref_adj_value_gl2014.csv","equal","global wage data were applied equally to all regions.","le_wage_ref_adj_value","~/github/ohi-global/eez2014/layers/le_wage_ref_adj_value.csv","cntry_key",,"sector",,"value",,TRUE,,,,,FALSE,,,,5,TRUE
-"LE","le_wage_ref_base_value","Modeled Livelihoods & Economies data","One of current or reference and base or adjusted value","value","value","le_wage_ref_base_value_gl2014.csv","equal","global wage data were applied equally to all regions.","le_wage_ref_base_value","~/github/ohi-global/eez2014/layers/le_wage_ref_base_value.csv","cntry_key",,"sector",,"value",,TRUE,,,,,FALSE,,,,5,TRUE
-"LE","le_wage_sector_year","Wages","gapfilled","value","2010 USD","le_wage_sector_year_gl2014.csv","equal","global wages were applied equally to each region. ","le_wage_sector_year","~/github/ohi-global/eez2014/layers/le_wage_sector_year.csv","cntry_key",,"sector","year","value",,TRUE,Inf,-Inf,,,FALSE,,,,5,TRUE
-"MAR","mar_coastalpopn_inland25km","Coastal population inland 25 kilometers","Coastal population, defined as the total population inland of 25 kilometers, extracted from Gridded Population of the World (GPW) Population Density Grid Future Estimates.
-
-Data sources:
-
-- Center for International Earth Science Information Network (CIESIN)/Columbia University 
-- CIESIN & CIAT (Center for International Earth Science Information Network (CIESIN)/Columbia University, & Centro Internacional de Agricultura Tropical (CIAT)) (2005). **Gridded Population of the World, Version 3 (GPWv3): Population Density Grid, Future Estimates**. Palisades, NY. [NASA Socioeconomic Data and Applications Center (SEDAC)](http://sedac.ciesin.columbia.edu/data/set/gpw-v3-population-density-future-estimates)","popsum","people","mar_coastalpopn_inland25km_sc2014-raster.csv","raster","spatial data was extracted for each region. ","mar_coastalpopn_inland25mi","/Volumes/data_edit/git-annex/clip-n-ship/Ecuador/layers/mar_coastalpopn_inland25km_lyr.csv","rgn_id",,,"year","popsum",,TRUE,Inf,-Inf,,,FALSE,,,,5,TRUE
+"targets","layer","name","description","fld_value","units","filename","clip_n_ship_disag","clip_n_ship_disag_description","layer_gl","path_in","rgns_in","fld_id_num","fld_id_chr","fld_category","fld_year","fld_val_num","fld_val_chr","file_exists","year_min","year_max","val_min","val_max","val_0to1","flds_unused","flds_missing","rows_duplicated","num_ids_unique","data_na"
+"LE","le_wage_cur_adj_value","Modeled Livelihoods & Economies data","One of current or reference and base or adjusted value","value","value","le_wage_cur_adj_value_gl2014.csv","equal","global wage data were applied equally to all regions.","le_wage_cur_adj_value","~/github/ohi-global/eez2014/layers/le_wage_cur_adj_value.csv","global","cntry_key",,"sector",,"value",,TRUE,,,,,FALSE,,,,5,TRUE
+"LE","le_wage_cur_base_value","Modeled Livelihoods & Economies data","One of current or reference and base or adjusted value","value","value","le_wage_cur_base_value_gl2014.csv","equal","global wage data were applied equally to all regions.","le_wage_cur_base_value","~/github/ohi-global/eez2014/layers/le_wage_cur_base_value.csv","global","cntry_key",,"sector",,"value",,TRUE,,,,,FALSE,,,,5,TRUE
+"LE","le_wage_ref_adj_value","Modeled Livelihoods & Economies data","One of current or reference and base or adjusted value","value","value","le_wage_ref_adj_value_gl2014.csv","equal","global wage data were applied equally to all regions.","le_wage_ref_adj_value","~/github/ohi-global/eez2014/layers/le_wage_ref_adj_value.csv","global","cntry_key",,"sector",,"value",,TRUE,,,,,FALSE,,,,5,TRUE
+"LE","le_wage_ref_base_value","Modeled Livelihoods & Economies data","One of current or reference and base or adjusted value","value","value","le_wage_ref_base_value_gl2014.csv","equal","global wage data were applied equally to all regions.","le_wage_ref_base_value","~/github/ohi-global/eez2014/layers/le_wage_ref_base_value.csv","global","cntry_key",,"sector",,"value",,TRUE,,,,,FALSE,,,,5,TRUE
+"LE","le_wage_sector_year","Wages","gapfilled","value","2010 USD","le_wage_sector_year_gl2014.csv","equal","global wages were applied equally to each region. ","le_wage_sector_year","~/github/ohi-global/eez2014/layers/le_wage_sector_year.csv","global","cntry_key",,"sector","year","value",,TRUE,Inf,-Inf,,,FALSE,,,,5,TRUE
 "NP","np_blast","Areas of observed blast (dynamite) fishing","The presence of destructive artisanal blast fishing (Reefs at Risk Revisited).
 
 Data sources:
 
 - [Reefs at Risk Revisited](www.wri.org/publication/reefs-at-risk-revisited) 
-","score","pressure score","np_blast_gl2014.csv","equal","global scores were applied equally to each region. ","np_blast","~/github/ohi-global/eez2014/layers/np_blast.csv","rgn_id",,,,"score",,TRUE,,,,,FALSE,,,,5,TRUE
+","score","pressure score","np_blast_gl2014.csv","equal","global scores were applied equally to each region. ","np_blast","~/github/ohi-global/eez2014/layers/np_blast.csv","global","rgn_id",,,,"score",,TRUE,,,,,FALSE,,,,5,TRUE
 "NP","np_cyanide","Areas of observed poison fishing","The presence of destructive artisanal poison (cyanide) fishing (Reefs at Risk Revisited).
 
 Data sources:
 
 - [Reefs at Risk Revisited](www.wri.org/publication/reefs-at-risk-revisited) 
-","score","pressure score","np_cyanide_gl2014.csv","equal","global scores were applied equally to each region. ","np_cyanide","~/github/ohi-global/eez2014/layers/np_cyanide.csv","rgn_id",,,,"score",,TRUE,,,,,FALSE,,,,5,TRUE
+","score","pressure score","np_cyanide_gl2014.csv","equal","global scores were applied equally to each region. ","np_cyanide","~/github/ohi-global/eez2014/layers/np_cyanide.csv","global","rgn_id",,,,"score",,TRUE,,,,,FALSE,,,,5,TRUE
 "pressures","fp_art_hb","High bycatch caused by artisanal fishing ","The presence of destructive artisanal blast and poison (cyanide) fishing (Reefs at Risk Revisited).
 
 Data sources:
 
-- [Reefs at Risk Revisited](www.wri.org/publication/reefs-at-risk-revisited) ","pressures.score","pressure score","fp_art_hb_gl2014.csv","equal","global pressures data were applied equally to all regions.","fp_art_hb","~/github/ohi-global/eez2014/layers/fp_art_hb.csv","rgn_id",,,,"pressures.score",,TRUE,,,,,FALSE,,,,5,TRUE
+- [Reefs at Risk Revisited](www.wri.org/publication/reefs-at-risk-revisited) ","pressures.score","pressure score","fp_art_hb_gl2014.csv","equal","global pressures data were applied equally to all regions.","fp_art_hb","~/github/ohi-global/eez2014/layers/fp_art_hb.csv","global","rgn_id",,,,"pressures.score",,TRUE,,,,,FALSE,,,,5,TRUE
 "pressures","hd_subtidal_hb","High bycatch artisanal fishing practices as a proxy for subtidal hard bottom habitat destruction","The presence of destructive artisanal blast and poison (cyanide) fishing (Reefs at Risk Revisited).
 
 Data sources:
 
-- [Reefs at Risk Revisited](www.wri.org/publication/reefs-at-risk-revisited) ","value","pressure score","hd_subtidal_hb_gl2014.csv","equal","global pressures data were applied equally to all regions.","hd_subtidal_hb","~/github/ohi-global/eez2014/layers/hd_subtidal_hb.csv","rgn_id",,,,"value",,TRUE,,,,,FALSE,,,,5,TRUE
+- [Reefs at Risk Revisited](www.wri.org/publication/reefs-at-risk-revisited) ","value","pressure score","hd_subtidal_hb_gl2014.csv","equal","global pressures data were applied equally to all regions.","hd_subtidal_hb","~/github/ohi-global/eez2014/layers/hd_subtidal_hb.csv","global","rgn_id",,,,"value",,TRUE,,,,,FALSE,,,,5,TRUE

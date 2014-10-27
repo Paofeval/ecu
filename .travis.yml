@@ -4,34 +4,39 @@
 # see the wiki:
 #   https://github.com/craigcitro/r-travis/wiki
 
+env:
+  global:
+		secure: "aec29d6975c42b8b7415c10b2081805820c6a60d"
+
 language: c
 
 before_install:
   - curl -OL http://raw.github.com/craigcitro/r-travis/master/scripts/travis-tool.sh
+  - curl -OL http://raw.github.com/OHI-Science/ohi-webapps/master/ohi-travis-tool.sh
   - chmod 755 ./travis-tool.sh
   - chmod 755 ./ohi-travis-tool.sh
   - ./travis-tool.sh bootstrap
 
 install:
-#  - ./travis-tool.sh install_deps
   - ./travis-tool.sh install_r zoo
   - ./travis-tool.sh install_r psych
   - ./travis-tool.sh install_github ropensci/git2r
   - ./travis-tool.sh install_github ohi-science/rCharts
   - ./travis-tool.sh install_github ohi-science/ohicore
 
-#script: ./travis-tool.sh run_tests
-script: ./ohi-travis-tool.sh calculate_scores
+script: 
+  - ./ohi-travis-tool.sh calculate_scores
 
 after_failure:
   - ./travis-tool.sh dump_logs
 
-after_success:
-  - chmod 600 .travis/deploy_key.pem # this key should have push access
-  - ssh-add .travis/deploy_key.pem
-  - git push origin
+after_success: 
+  - ./ohi-travis-tool.sh push_scores
 
 notifications:
   email:
+    recipients:
+      - bbest@nceas.ucsb.edu
+      - bbest@nceas.ucsb.edu
     on_success: change
-    on_failure: change
+    on_failure: always
