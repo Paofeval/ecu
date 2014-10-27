@@ -14,6 +14,9 @@ before_install:
 
 install:
 #  - ./travis-tool.sh install_deps
+  - ./travis-tool.sh install_r zoo
+  - ./travis-tool.sh install_r psych
+  - ./travis-tool.sh install_github git2r
   - ./travis-tool.sh install_github ohi-science/rCharts
   - ./travis-tool.sh install_github ohi-science/ohicore
 
@@ -22,6 +25,11 @@ script: ./ohi-travis-tool.sh calculate_scores
 
 after_failure:
   - ./travis-tool.sh dump_logs
+
+after_success:
+  - chmod 600 .travis/deploy_key.pem # this key should have push access
+  - ssh-add .travis/deploy_key.pem
+  - git push origin
 
 notifications:
   email:
