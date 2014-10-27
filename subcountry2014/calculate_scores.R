@@ -1,3 +1,5 @@
+library(stringr)
+
 # set working directory based on Rscipt execution
 args = commandArgs()
 wd = dirname(str_replace(args[grep('--file=', args)], '--file=', ''))
