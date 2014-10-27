@@ -15,6 +15,7 @@ before_install:
 install:
 #  - ./travis-tool.sh install_deps
   - ./travis-tool.sh install_github ohi-science/ohicore
+  - ./travis-tool.sh install_github ohi-science/rCharts
 
 #script: ./travis-tool.sh run_tests
 script: ./ohi-travis-tool.sh calculate_scores
