@@ -1,3 +1,4 @@
+library(methods)
 library(stringr)
 
 # set working directory based on Rscipt execution
