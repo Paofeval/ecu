@@ -1,8 +1,13 @@
+library(methods)
+library(stringr)
+
+# set working directory based on Rscipt execution
+args = commandArgs()
+wd = dirname(str_replace(args[grep('--file=', args)], '--file=', ''))
+setwd(wd)
+
 # load required libraries
 suppressWarnings(require(ohicore))
-
-# set working directory to the scenario directory, ie containing conf and layers directories
-setwd('/Users/bbest/github/clip-n-ship/ohi-ecuador/subcountry2014')
 
 # load scenario configuration
 conf = Conf('conf')
