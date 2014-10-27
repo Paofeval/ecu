@@ -1,42 +1,32 @@
-# Sample .travis.yml for R projects.
-#
-# See README.md for instructions, or for more configuration options,
-# see the wiki:
-#   https://github.com/craigcitro/r-travis/wiki
-
-env:
-  global:
-    secure: "aec29d6975c42b8b7415c10b2081805820c6a60d"
-
 language: c
-
 before_install:
-  - curl -OL http://raw.github.com/craigcitro/r-travis/master/scripts/travis-tool.sh
-  - curl -OL http://raw.github.com/OHI-Science/ohi-webapps/master/ohi-travis-tool.sh
-  - chmod 755 ./travis-tool.sh
-  - chmod 755 ./ohi-travis-tool.sh
-  - ./travis-tool.sh bootstrap
-
+- curl -OL http://raw.github.com/craigcitro/r-travis/master/scripts/travis-tool.sh
+- curl -OL http://raw.github.com/OHI-Science/ohi-webapps/master/ohi-travis-tool.sh
+- chmod 755 ./travis-tool.sh
+- chmod 755 ./ohi-travis-tool.sh
+- ./travis-tool.sh bootstrap
 install:
-  - ./travis-tool.sh install_r zoo
-  - ./travis-tool.sh install_r psych
-#  - ./travis-tool.sh install_github ropensci/git2r
-  - ./travis-tool.sh install_github ohi-science/rCharts
-  - ./travis-tool.sh install_github ohi-science/ohicore
-
-script: 
-  - ./ohi-travis-tool.sh calculate_scores
-
+- ./travis-tool.sh install_r zoo
+- ./travis-tool.sh install_r psych
+- ./travis-tool.sh install_github ohi-science/rCharts
+- ./travis-tool.sh install_github ohi-science/ohicore
+script:
+- ./ohi-travis-tool.sh calculate_scores
+- echo GIT_NAME:"${GIT_NAME}"
+- echo GIT_EMAIL:"${GIT_EMAIL}"
+- echo TRAVIS_COMMIT:"${TRAVIS_COMMIT}"
+- echo TRAVIS_REPO_SLUG:"${TRAVIS_REPO_SLUG}"
 after_success:
-  - ./ohi-travis-tool.sh push_scores
-
+- ./ohi-travis-tool.sh push_changes
 after_failure:
-  - ./travis-tool.sh dump_logs
-
+- ./travis-tool.sh dump_logs
 notifications:
   email:
     recipients:
-      - bbest@nceas.ucsb.edu
-      - bbest@nceas.ucsb.edu
+    - bbest@nceas.ucsb.edu
+    - bbest@nceas.ucsb.edu
     on_success: change
     on_failure: always
+env:
+  global:
+    secure: MxndVJugIbNZOL/5Tqy9dBX1WQMSbIT4rjq+zByq3aURQ4w9DOuR4I6LD4rYuLtXnaBqE1m2ocAf5WuQ5uA0R/JwiDL688NpVoIAuHDXtUxoXbgX3uHRS6espQmMzs+4MuVkliXld4/68GQpKWUkCbI/HEdvR4SXN40Uba4/Ptc=
