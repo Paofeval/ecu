@@ -186,7 +186,7 @@ Data sources:
 Data sources:
 
 - [The World Bank](data.worldbank.org/indicator/SL.TLF.TOTL.IN)
-","count","jobs","tr_jobs_total_sc2014-popn-inland25km.csv","population_inland25km","global total labor force data were applied to each region after weighting by each region's coastal population.","tr_jobs_total","~/github/ohi-global/eez2014/layers/tr_jobs_total.csv","global","rgn_id",,,"year","count",,TRUE,1990,2012,26601.9765386004,5106750.8718701,FALSE,,,,5,FALSE
+","count","jobs","tr_jobs_total_sc2014-popn-inland25km.csv","population_inland25km","global total labor force data were applied to each region after weighting by each region's coastal population.","tr_jobs_total","~/github/ohi-global/eez2014/layers/tr_jobs_total.csv","global","rgn_id",,,"year","count",,TRUE,1990,2012,9999,10113,FALSE,,,,5,FALSE
 "TR","tr_jobs_tourism","Direct employment in tourism","Direct employment in tourism (WTTC).
 
 Data sources:
