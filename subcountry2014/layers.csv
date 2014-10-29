@@ -324,14 +324,14 @@ Data sources:
 Data sources:
 
 - [Ocean Conservancy International Coastal Cleanup 2012](http://www.oceanconservancy.org/our-work/international-coastal-cleanup/2012-ocean-trash-index.html)
-","pressure_score","pressure score","po_trash_gl2014.csv","equal","global pressures data were applied equally to all regions.","po_trash","~/github/ohi-global/eez2014/layers/po_trash.csv","global","rgn_id",,,,"pressure_score",,TRUE,,,0.606364341429434,0.606364341429434,TRUE,,,,5,FALSE
+","pressure_score","pressure score","po_trash_gl2014.csv","equal","global pressures data were applied equally to all regions.","po_trash","~/github/ohi-global/eez2014/layers/po_trash.csv","global","rgn_id",,,,"pressure_score",,TRUE,,,0.1,1,TRUE,,,,5,FALSE
 "pressures HAB","hab_presence","Habitat presence","Modeled combined habitat presence","boolean","boolean","hab_presence_gl2014.csv","equal","global pressures data were applied equally to all regions.","hab_presence","~/github/ohi-global/eez2014/layers/hab_presence.csv","global","rgn_id",,"habitat",,"boolean",,TRUE,,,1,1,TRUE,,,,5,FALSE
 "resilience","alien_species","Alien species","The number and type of invasive and harmful invasive species in each marine ecoregion (Molnar et al. 2008). 
 
 Data sources:
 
 - Molnar, J.L., Gamboa, R.L., Revenga C., Spalding, M. (2008). **Assessing the global threat of invasive species to marine biodiversity**. _Frontiers in Ecology and the Environment_ 6(485). [doi:10.1890/070064](http://dx.doi.org/10.1890/070064)
-","resilience score","resilience score","alien_species_gl2014.csv","equal","global resilience data were applied equally to all regions.","alien_species","~/github/ohi-global/eez2014/layers/alien_species.csv","global","rgn_id",,,,"resilience.score",,TRUE,,,0.625,0.625,TRUE,,,,5,FALSE
+","resilience score","resilience score","alien_species_gl2014.csv","equal","global resilience data were applied equally to all regions.","alien_species","~/github/ohi-global/eez2014/layers/alien_species.csv","global","rgn_id",,,,"resilience.score",,TRUE,,,0.1,0.9,TRUE,,,,5,FALSE
 "resilience","cites","Resilience from commitment to CITES","Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES) signatories.
 
 Data sources:
