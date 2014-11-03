@@ -1,3 +1,5 @@
+# setwd('~/github/ecu/subcountry2014')
 require(methods)
-suppressWarnings(require(ohicore))
+devtools::load_all('~/github/ohicore')
+#suppressWarnings(require(ohicore))
 launch_app()
