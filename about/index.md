@@ -1,9 +1,7 @@
 ---
 layout: article
 title: "About"
-date: 2014-06-02T09:44:20-04:00
-modified: 2014-08-27T14:56:44-04:00
-excerpt: "This is the Skinny Bones about page."
+excerpt: "This is the about page."
 image:
   feature:
   teaser:
@@ -12,6 +10,25 @@ share: false
 ads: false
 ---
 
-This is a work in progress.
+Towards healthier oceans.
 
-Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site. I purposely keep the styling minimal and bare to make it easier to add your own flare and markup.
+While the Ocean Health Index framework was first demonstrated at the global scale (Halpern _et al._ 2012, _Nature_), assessments conducted at smaller spatial scales provide a clearer picture of local ocean health. Using existing data, indicators and priorities, **Ocean Health Index+ regional assessments** combine local elements influencing ocean health at the spatial scales where policy and management decisions are made.  
+
+To enable and faciliate independent groups interested in conducting Ocean Health Index+ regional assessments, we provide a suite of information, software, and guidance on this website. Since small-scale assessments often occur at the country-level, this website includes a template for each coastal country, including subcountry divisions (often coastal states or provinces) populated with data and models used in the global assessment.  
+
+We encourage any group to use this website as a starting point, incorporating local data, models, and priorities to to the template we provide.
+
+
+## Contact
+
+For more information:  
+
+- [www.oceanhealthindex.org](www.oceanhealthindex.org)  
+
+For strategic guidance:
+
+- epacheco at conservation dot org  
+
+For technical guidance:
+
+- lowndes at conservation dot org

@@ -1,7 +1,7 @@
 # Site wide configuration
 
 title: "OHI Ecuador"
-country: "Ecuador"
+study_area: "Ecuador"
 description: "Ocean Health Index for Ecuador"
 flag: flag_Ecuador.png
 logo: 120x120.gif
@@ -11,6 +11,7 @@ url: //ohi-science.org/ecu
 baseurl: /ecu
 git_owner: ohi-science
 git_repo: ecu
+git_slug: ohi-science/ecu
 
 # Jekyll configuration
 
@@ -18,11 +19,28 @@ sass:
   sass_dir: _sass
   style: compressed
 permalink: /:categories/:title/
-markdown: kramdown
+markdown: redcarpet
+redcarpet:
+  extensions: [with_toc_data]
+#markdown: kramdown
+# kramdown:
+#   input:         GFM
+#   auto_ids:      true
+#   footnote_nr:   1
+#   entity_output: as_char
+#   toc_levels:    1..6
+#   smart_quotes:  lsquo,rsquo,ldquo,rdquo
+#   use_coderay:   false
+#   coderay:
+#     coderay_wrap:              div
+#     coderay_line_numbers:      nil
+#     coderay_line_number_start: 1
+#     coderay_tab_width:         4
+#     coderay_bold_every:        10
+#     coderay_css:               style
 highlighter: pygments
 gems:
   - jekyll-sitemap
-
 
 # Site owner
 owner:

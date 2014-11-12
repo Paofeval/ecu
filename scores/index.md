@@ -32,9 +32,9 @@ toc: true
 
 {% assign scores = site.data[branch][scenario].scores | where:"region_id", 0 | where:"dimension", "score" | sort:"goal" %}
 {% assign index  = scores | where:"goal","Index" %}
-## {{ site.country }}
+## {{ site.study_area }}
 
-![flower plot for {{ site.country }}]({{ url_figures }}/flower_GLOBAL.png)
+![flower plot for {{ site.study_area }}]({{ url_figures }}/flower_GLOBAL.png)
 
 | Goal  | Score |
 |------:|:------|

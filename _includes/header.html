@@ -1,6 +1,12 @@
 <header id="masthead">
   <div class="inner-wrap">
-    <a href="{{ site.baseurl }}" class="site-title"><img src="{{ site.baseurl }}/images/ohi_logo_bw.png"> {% if site.flag %} <img src="{{ site.baseurl }}/images/{{ site.flag }}">  {% endif %} {{ site.title }}</a>
+    <a href="{{ site.baseurl }}/" class="site-title">
+      <img src="{{ site.baseurl }}/images/ohi_logo_bw.png" alt='OHI logo'>
+      {% if site.flag %}
+        <img src="{{ site.baseurl }}/images/{{ site.flag }}" alt='{{ site.study_area }} flag'>
+      {% endif %}
+      {{ site.title }}
+    </a>
     <nav role="navigation" class="menu top-menu">
         {% include navigation.html %}
     </nav>

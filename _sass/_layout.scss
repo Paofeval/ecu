@@ -282,7 +282,7 @@
 	}
 }
 // make image flush with edges on small screens
-.page-image {	
+.page-image {
 	position: relative;
 	margin-left: -1 * $gutter;
 	margin-right: -1 * $gutter;
@@ -306,7 +306,7 @@
 	}
 }
 // breadcrumbs
-.breadcrumbs { 
+.breadcrumbs {
 	@include row;
 	margin-top: $gutter;
 	@include font-size(10,no);
@@ -355,8 +355,8 @@
 		@include omega(2n);
 	}
 	@include media($medium) {
-		@include span-columns(3);
-		@include omega(4n);
+		@include span-columns(4);
+		@include omega(5n);
 	}
 	.entry-date {
 		@include font-size(16,no);
