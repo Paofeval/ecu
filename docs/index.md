@@ -23,7 +23,7 @@ Within the single repository [github.com/{{ site.git_slug }}](https://github.com
 
     2. publishing is turned on. During the draft editing and testing phases of development, it is typically desirable to turn this off. (Details below.)
 
-1. [**gh-pages**](https://github.com/{{ site.git_slug }}/tree/gh-pages) branch is this website. The results sections of the site (folders) get updated after the automatic calculation of scores. The rest of the site can be manually altered.
+1. [**gh-pages**](https://github.com/{{ site.git_slug }}/tree/gh-pages) branch is this website. The results sections of the site (regions, layers, goals, scores per branch/scenario) are overwritten into this repository after automatic calculation of scores. The rest of the site can be manually altered.
 
 1. [**app**](https://github.com/{{ site.git_slug }}/tree/app) branch is the interactive layer and map viewer application. The user interface and server-side processing use the [Shiny](http://shiny.rstudio.com/) R package and are deployed online via [ShinyApps.io](https://www.shinyapps.io/) to [{{ site.app_url }}]({{ site.app_url }}), which is embedded as an iframe within this website at [{{ site.baseurl }}/app]({{ site.baseurl }}/app). Once deployed, the app pulls updates from the data branches (draft and published) every time a new connection is initiated (ie browser refreshes).
 
