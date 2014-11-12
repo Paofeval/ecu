@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Getting Started with OHI for <%=study_area%>"
+title: "Editing OHI for <%=study_area%>"
 excerpt: "documentation on getting started"
 tags: []
 image:
@@ -11,21 +11,21 @@ toc: true
 share: false
 ---
 
-## Three Branches
+## Four Branches
 
 Within the single repository [github.com/{{ site.git_slug }}](https://github.com/{{ site.git_slug }}), four branches contain all the files for the data, application and this website.
 
-1. **draft** branch is for editing. This is the default branch and the main working area where existing scenario data files can be edited and new scenarios added.
+1. [**draft**](https://github.com/{{ site.git_slug }}/tree/draft) branch is for editing. This is the default branch and the main working area where existing scenario data files can be edited and new scenarios added.
 
-1. **published** branch is a vetted copy of the draft branch, not for direct editing. This branch is only updated by automatic calculation of scores if:
+1. [**published**](https://github.com/{{ site.git_slug }}/tree/published) branch is a vetted copy of the draft branch, not for direct editing. This branch is only updated by automatic calculation of scores if:
 
-    1. no errors occur during the calculation of scores, and
+    1. no errors occur during the calculation of scores in the draft branch, and
 
-    2. publishing is not turned off, as may be desirable during the draft editing and testing phases of development. (more below)
+    2. publishing is turned on. During the draft editing and testing phases of development, it is typically desirable to turn this off. (Details below.)
 
-1. **gh-pages** branch is the website. The results sections of the site get updated after the automatic calculation of scores. The rest of the site can be manually altered.
+1. [**gh-pages**](https://github.com/{{ site.git_slug }}/tree/gh-pages) branch is this website. The results sections of the site (folders) get updated after the automatic calculation of scores. The rest of the site can be manually altered.
 
-1. **app** branch is the interactive layer and map viewer application. The user interface and server-side processing use the [Shiny](http://shiny.rstudio.com/) R package and are deployed online via [ShinyApps.io](https://www.shinyapps.io/) to [{{ site.app_url }}]({{ site.app_url }}) which is embedded as an iframe within this website at [{{ site.baseurl }}/app]({{ site.baseurl }}/app). Once deployed, the app pulls updates from the data repositories every time a new connection is initiated (ie browser refreshes).
+1. [**app**](https://github.com/{{ site.git_slug }}/tree/app) branch is the interactive layer and map viewer application. The user interface and server-side processing use the [Shiny](http://shiny.rstudio.com/) R package and are deployed online via [ShinyApps.io](https://www.shinyapps.io/) to [{{ site.app_url }}]({{ site.app_url }}) which is embedded as an iframe within this website at [{{ site.baseurl }}/app]({{ site.baseurl }}/app). Once deployed, the app pulls updates from the data repositories every time a new connection is initiated (ie browser refreshes).
 
 ## Workflow
 

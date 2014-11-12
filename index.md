@@ -24,7 +24,7 @@ This site represents subcountry data extracted from the global <a href="http://o
     <p class="post-excerpt">
       Peruse tables and map layers already extracted for {{ site.study_area }}, as well as gaps in need of better localized data.
       Besides the <a href="./regions">Regions</a>, <a href="./layers">Layers</a>, <a href="./goals">Goals</a>, <a href="./scores">Scores</a>
-      available in the sidebar menu, you can explore maps, histograms and tables in the interactive <a href="./docs">Application</a>.
+      available in the menu, you can explore interactive maps, histograms and tables of the input layers and output scores in the interactive <a href="./docs">Application</a>.
     </p>
   </div>
 
