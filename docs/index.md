@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Editing OHI for <%=study_area%>"
+title: "Editing OHI for Ecuador"
 excerpt: "documentation on getting started"
 tags: []
 image:
@@ -32,7 +32,7 @@ Within the single repository [github.com/{{ site.git_slug }}](https://github.com
 The final step in the workflow is publishing of scores to the website (gh-pages/scores). Draft scores are available in a subfolder (gh-pages/draft/scores). We can summarize the inter-relationship between branches with the following sequence of updates.
 
 ```bash
-draft          -> gh-pages/draft/scores
+draft          -> gh-pages/draft/subcountry2014/scores
 └──> published -> gh-pages/scores
 ```
 
@@ -82,13 +82,6 @@ Here's the workflow for working with files and cascading these edits. Note that 
     If an error occurs at any point in the sequence of scripts (`calculate_scores`, `create_results`, `push_branch draft`, `push_branch published`, `create_pages`, `push_branch gh-pages`), the build halts and a "build failing" image linked to the [travis-ci.org/{{ site.git_slug }}](https://travis-ci.org/{{ site.git_slug }}) log will show up in the README.md of the [github.com/{{ site.git_slug }}](https://github.com/{{ site.git_slug }}) site like so:
 
     [<svg xmlns="http://www.w3.org/2000/svg" width="81" height="18"><linearGradient id="a" x2="0" y2="100%"><stop offset="0" stop-color="#fff" stop-opacity=".7"/><stop offset=".1" stop-color="#aaa" stop-opacity=".1"/><stop offset=".9" stop-opacity=".3"/><stop offset="1" stop-opacity=".5"/></linearGradient><rect rx="4" width="81" height="18" fill="#555"/><rect rx="4" x="37" width="44" height="18" fill="#e05d44"/><path fill="#e05d44" d="M37 0h4v18h-4z"/><rect rx="4" width="81" height="18" fill="url(#a)"/><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11"><text x="19.5" y="14" fill="#010101" fill-opacity=".3">build</text><text x="19.5" y="13">build</text><text x="58" y="14" fill="#010101" fill-opacity=".3">failing</text><text x="58" y="13">failing</text></g></svg>](https://travis-ci.org/{{ site.git_slug }})
-
-    https://api.travis-ci.org/OHI-Science/alb.svg?branch=gh-pages
-
-
-     and subsequent scripts are not completed and the build shows
-
-
 
 ### draft branch
 
