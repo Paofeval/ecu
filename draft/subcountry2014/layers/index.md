@@ -10,7 +10,9 @@ toc: true
 ---
 
 
-## alien_species: Alien species
+## alien_species
+
+Alien species
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -29,7 +31,9 @@ toc: true
 
 
 
-## ao_access: Fisheries management effectiveness and opportunity
+## ao_access
+
+Fisheries management effectiveness and opportunity
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -48,7 +52,9 @@ toc: true
 
 
 
-## ao_need: Purchasing power parity as a proxy for subsistence fishing need, by region
+## ao_need
+
+Purchasing power parity as a proxy for subsistence fishing need, by region
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -67,7 +73,9 @@ toc: true
 
 
 
-## cc_acid: Ocean acidification
+## cc_acid
+
+Ocean acidification
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -86,7 +94,9 @@ toc: true
 
 
 
-## cc_slr: Sea level rise
+## cc_slr
+
+Sea level rise
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -106,7 +116,9 @@ toc: true
 
 
 
-## cc_sst: Sea surface temperature (SST) anomalies
+## cc_sst
+
+Sea surface temperature (SST) anomalies
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -127,7 +139,9 @@ toc: true
 
 
 
-## cc_uv: UV radiation
+## cc_uv
+
+UV radiation
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -147,7 +161,9 @@ toc: true
 
 
 
-## cites: Resilience from commitment to CITES
+## cites
+
+Resilience from commitment to CITES
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -166,7 +182,9 @@ toc: true
 
 
 
-## cntry_georegions: Georegion ids per country, at 3 georegion levels
+## cntry_georegions
+
+Georegion ids per country, at 3 georegion levels
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -185,7 +203,9 @@ toc: true
 
 
 
-## cntry_rgn: Regions per country
+## cntry_rgn
+
+Regions per country
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -204,7 +224,9 @@ toc: true
 
 
 
-## cp_habitat_extent_rank: Habitat extent * rank, per Coastal Protection habitats
+## cp_habitat_extent_rank
+
+Habitat extent * rank, per Coastal Protection habitats
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -217,7 +239,9 @@ toc: true
 
 
 
-## cs_habitat_extent: Habitat extent * rank, per Carbon Storage habitats
+## cs_habitat_extent
+
+Habitat extent * rank, per Carbon Storage habitats
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -230,7 +254,9 @@ toc: true
 
 
 
-## cw_coastalpopn_trend: Coastal human population as a proxy for trend in trash
+## cw_coastalpopn_trend
+
+Coastal human population as a proxy for trend in trash
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -250,7 +276,9 @@ toc: true
 
 
 
-## cw_fertilizer_trend: Fertilizer consumption as a proxy for trend in nutrient pollution
+## cw_fertilizer_trend
+
+Fertilizer consumption as a proxy for trend in nutrient pollution
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -269,7 +297,9 @@ toc: true
 
 
 
-## cw_pathogen_trend: Trends in access to improved sanitation as a proxy for pathogen pollution trend
+## cw_pathogen_trend
+
+Trends in access to improved sanitation as a proxy for pathogen pollution trend
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -288,7 +318,9 @@ toc: true
 
 
 
-## cw_pesticide_trend: Pesticide consumption as a proxy for trend in chemical pollution
+## cw_pesticide_trend
+
+Pesticide consumption as a proxy for trend in chemical pollution
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -307,7 +339,9 @@ toc: true
 
 
 
-## fis_b_bmsy: B/Bmsy estimates obtained using the catch-MSY method
+## fis_b_bmsy
+
+B/Bmsy estimates obtained using the catch-MSY method
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -326,7 +360,9 @@ toc: true
 
 
 
-## fis_meancatch: Catch data for each Taxon/FAO/SAUP region averaged across years (1980-2011)
+## fis_meancatch
+
+Catch data for each Taxon/FAO/SAUP region averaged across years (1980-2011)
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -345,7 +381,9 @@ toc: true
 
 
 
-## fis_proparea_saup2rgn: area of each saup/total OHI reporting region
+## fis_proparea_saup2rgn
+
+area of each saup/total OHI reporting region
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -364,7 +402,9 @@ toc: true
 
 
 
-## fishing_v1: CBD survey: coastal fishing v1
+## fishing_v1
+
+CBD survey: coastal fishing v1
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -383,7 +423,9 @@ toc: true
 
 
 
-## fishing_v1_eez: CBD survey: ocean fishing v1
+## fishing_v1_eez
+
+CBD survey: ocean fishing v1
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -402,7 +444,9 @@ toc: true
 
 
 
-## fishing_v2_eez: CBD survey: ocean fishing v2
+## fishing_v2_eez
+
+CBD survey: ocean fishing v2
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -421,7 +465,9 @@ toc: true
 
 
 
-## fishing_v3: CBD survey: coastal fishing v3
+## fishing_v3
+
+CBD survey: coastal fishing v3
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -440,7 +486,9 @@ toc: true
 
 
 
-## fishing_v3_eez: CBD survey: ocean fishing v3
+## fishing_v3_eez
+
+CBD survey: ocean fishing v3
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -459,7 +507,9 @@ toc: true
 
 
 
-## fp_art_hb: High bycatch caused by artisanal fishing 
+## fp_art_hb
+
+High bycatch caused by artisanal fishing 
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -478,7 +528,9 @@ toc: true
 
 
 
-## fp_art_lb: Low bycatch caused by artisanal fishing 
+## fp_art_lb
+
+Low bycatch caused by artisanal fishing 
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -498,7 +550,9 @@ toc: true
 
 
 
-## fp_com_hb: High bycatch caused by commercial fishing 
+## fp_com_hb
+
+High bycatch caused by commercial fishing 
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -517,7 +571,9 @@ toc: true
 
 
 
-## fp_com_lb: Low bycatch caused by commercial fishing 
+## fp_com_lb
+
+Low bycatch caused by commercial fishing 
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -536,7 +592,9 @@ toc: true
 
 
 
-## fp_targetharvest: Targeted harvest of cetaceans and sea turtles
+## fp_targetharvest
+
+Targeted harvest of cetaceans and sea turtles
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -555,7 +613,9 @@ toc: true
 
 
 
-## fp_wildcaught_weight: Fisheries weighting factor
+## fp_wildcaught_weight
+
+Fisheries weighting factor
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -574,7 +634,9 @@ toc: true
 
 
 
-## hab_extent: Habitat extent
+## hab_extent
+
+Habitat extent
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -587,7 +649,9 @@ toc: true
 
 
 
-## hab_health: Habitat health
+## hab_health
+
+Habitat health
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -600,7 +664,9 @@ toc: true
 
 
 
-## hab_presence: Habitat presence
+## hab_presence
+
+Habitat presence
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -613,7 +679,9 @@ toc: true
 
 
 
-## hab_trend: Habitat health trend
+## hab_trend
+
+Habitat health trend
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -626,7 +694,9 @@ toc: true
 
 
 
-## habitat: CBD survey: habitat
+## habitat
+
+CBD survey: habitat
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -645,7 +715,9 @@ toc: true
 
 
 
-## habitat_combo: CBD survey: coastal habitat
+## habitat_combo
+
+CBD survey: coastal habitat
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -664,7 +736,9 @@ toc: true
 
 
 
-## habitat_combo_eez: CBD survey: ocean habitat
+## habitat_combo_eez
+
+CBD survey: ocean habitat
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -683,7 +757,9 @@ toc: true
 
 
 
-## hd_intertidal: Coastal population density as a proxy for intertidal habitat destruction
+## hd_intertidal
+
+Coastal population density as a proxy for intertidal habitat destruction
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -703,7 +779,9 @@ toc: true
 
 
 
-## hd_subtidal_hb: High bycatch artisanal fishing practices as a proxy for subtidal hard bottom habitat destruction
+## hd_subtidal_hb
+
+High bycatch artisanal fishing practices as a proxy for subtidal hard bottom habitat destruction
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -722,7 +800,9 @@ toc: true
 
 
 
-## hd_subtidal_sb: High bycatch commercial fishing practices as a proxy for subtidal soft bottom habitat destruction
+## hd_subtidal_sb
+
+High bycatch commercial fishing practices as a proxy for subtidal soft bottom habitat destruction
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -741,7 +821,9 @@ toc: true
 
 
 
-## ico_spp_extinction_status: IUCN extinction risk category for iconic species
+## ico_spp_extinction_status
+
+IUCN extinction risk category for iconic species
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -760,7 +842,9 @@ toc: true
 
 
 
-## ico_spp_popn_trend: IUCN population trend as a proxy for iconic species trend
+## ico_spp_popn_trend
+
+IUCN population trend as a proxy for iconic species trend
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -779,7 +863,9 @@ toc: true
 
 
 
-## le_gdp: GDP
+## le_gdp
+
+GDP
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -798,7 +884,9 @@ toc: true
 
 
 
-## le_gdp_pc_ppp: Modeled Livelihoods & Economies data
+## le_gdp_pc_ppp
+
+Modeled Livelihoods & Economies data
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -811,7 +899,9 @@ toc: true
 
 
 
-## le_jobs_cur_adj_value: Modeled Livelihoods & Economies data
+## le_jobs_cur_adj_value
+
+Modeled Livelihoods & Economies data
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -824,7 +914,9 @@ toc: true
 
 
 
-## le_jobs_cur_base_value: Modeled Livelihoods & Economies data
+## le_jobs_cur_base_value
+
+Modeled Livelihoods & Economies data
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -837,7 +929,9 @@ toc: true
 
 
 
-## le_jobs_ref_adj_value: Modeled Livelihoods & Economies data
+## le_jobs_ref_adj_value
+
+Modeled Livelihoods & Economies data
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -850,7 +944,9 @@ toc: true
 
 
 
-## le_jobs_ref_base_value: Modeled Livelihoods & Economies data
+## le_jobs_ref_base_value
+
+Modeled Livelihoods & Economies data
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -863,7 +959,9 @@ toc: true
 
 
 
-## le_jobs_sector_year: Jobs
+## le_jobs_sector_year
+
+Jobs
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -876,7 +974,9 @@ toc: true
 
 
 
-## le_popn: Total population by subregion
+## le_popn
+
+Total population by subregion
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -889,7 +989,9 @@ toc: true
 
 
 
-## le_rev_cur_adj_value: Modeled Livelihoods & Economies data
+## le_rev_cur_adj_value
+
+Modeled Livelihoods & Economies data
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -902,7 +1004,9 @@ toc: true
 
 
 
-## le_rev_cur_base_value: Modeled Livelihoods & Economies data
+## le_rev_cur_base_value
+
+Modeled Livelihoods & Economies data
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -915,7 +1019,9 @@ toc: true
 
 
 
-## le_rev_ref_adj_value: Modeled Livelihoods & Economies data
+## le_rev_ref_adj_value
+
+Modeled Livelihoods & Economies data
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -928,7 +1034,9 @@ toc: true
 
 
 
-## le_rev_ref_base_value: Modeled Livelihoods & Economies data
+## le_rev_ref_base_value
+
+Modeled Livelihoods & Economies data
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -941,7 +1049,9 @@ toc: true
 
 
 
-## le_rev_sector_year: Revenue
+## le_rev_sector_year
+
+Revenue
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -954,7 +1064,9 @@ toc: true
 
 
 
-## le_revenue_adj: Modeled Livelihoods & Economies data
+## le_revenue_adj
+
+Modeled Livelihoods & Economies data
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -967,7 +1079,9 @@ toc: true
 
 
 
-## le_sector_weight: Jobs weighting
+## le_sector_weight
+
+Jobs weighting
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -980,7 +1094,9 @@ toc: true
 
 
 
-## le_unemployment: Unemployment
+## le_unemployment
+
+Unemployment
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -993,7 +1109,9 @@ toc: true
 
 
 
-## le_wage_cur_adj_value: Modeled Livelihoods & Economies data
+## le_wage_cur_adj_value
+
+Modeled Livelihoods & Economies data
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1006,7 +1124,9 @@ toc: true
 
 
 
-## le_wage_cur_base_value: Modeled Livelihoods & Economies data
+## le_wage_cur_base_value
+
+Modeled Livelihoods & Economies data
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1019,7 +1139,9 @@ toc: true
 
 
 
-## le_wage_ref_adj_value: Modeled Livelihoods & Economies data
+## le_wage_ref_adj_value
+
+Modeled Livelihoods & Economies data
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1032,7 +1154,9 @@ toc: true
 
 
 
-## le_wage_ref_base_value: Modeled Livelihoods & Economies data
+## le_wage_ref_base_value
+
+Modeled Livelihoods & Economies data
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1045,7 +1169,9 @@ toc: true
 
 
 
-## le_wage_sector_year: Wages
+## le_wage_sector_year
+
+Wages
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1058,7 +1184,9 @@ toc: true
 
 
 
-## le_workforcesize_adj: Modeled Livelihoods & Economies data
+## le_workforcesize_adj
+
+Modeled Livelihoods & Economies data
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1071,7 +1199,9 @@ toc: true
 
 
 
-## li_gci: GCI: competitiveness in achieving sustained economic prosperity
+## li_gci
+
+GCI: competitiveness in achieving sustained economic prosperity
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1090,7 +1220,9 @@ toc: true
 
 
 
-## li_sector_evenness: Sector evenness as a measure of economic diversity
+## li_sector_evenness
+
+Sector evenness as a measure of economic diversity
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1103,7 +1235,9 @@ toc: true
 
 
 
-## liveco_status: Modeled livelihoods and economies status
+## liveco_status
+
+Modeled livelihoods and economies status
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1116,7 +1250,9 @@ toc: true
 
 
 
-## liveco_trend: Modeled livelihoods and economies trend
+## liveco_trend
+
+Modeled livelihoods and economies trend
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1129,7 +1265,9 @@ toc: true
 
 
 
-## lsp_prot_area_inland1km: Coastal protected areas inland 1km
+## lsp_prot_area_inland1km
+
+Coastal protected areas inland 1km
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1148,7 +1286,9 @@ toc: true
 
 
 
-## lsp_prot_area_offshore3nm: Coastal marine protected areas offshore 3km
+## lsp_prot_area_offshore3nm
+
+Coastal marine protected areas offshore 3km
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1167,7 +1307,9 @@ toc: true
 
 
 
-## mar_coastalpopn_inland25km: Coastal population inland 25 kilometers
+## mar_coastalpopn_inland25km
+
+Coastal population inland 25 kilometers
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1187,7 +1329,9 @@ toc: true
 
 
 
-## mar_harvest_species: Mariculture species harvested
+## mar_harvest_species
+
+Mariculture species harvested
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1206,7 +1350,9 @@ toc: true
 
 
 
-## mar_harvest_tonnes: Mariculture harvest
+## mar_harvest_tonnes
+
+Mariculture harvest
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1225,7 +1371,9 @@ toc: true
 
 
 
-## mar_sustainability_score: Mariculture sustainability score
+## mar_sustainability_score
+
+Mariculture sustainability score
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1244,7 +1392,9 @@ toc: true
 
 
 
-## mar_trend_years: Mariculture years used for trend
+## mar_trend_years
+
+Mariculture years used for trend
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1257,7 +1407,9 @@ toc: true
 
 
 
-## mariculture: CBD survey: mariculture
+## mariculture
+
+CBD survey: mariculture
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1276,7 +1428,9 @@ toc: true
 
 
 
-## msi_gov:  MSI sustainability and regulations
+## msi_gov
+
+ MSI sustainability and regulations
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1295,7 +1449,9 @@ toc: true
 
 
 
-## np_blast: Areas of observed blast (dynamite) fishing
+## np_blast
+
+Areas of observed blast (dynamite) fishing
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1314,7 +1470,9 @@ toc: true
 
 
 
-## np_cyanide: Areas of observed poison fishing
+## np_cyanide
+
+Areas of observed poison fishing
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1333,7 +1491,9 @@ toc: true
 
 
 
-## np_harvest_product_weight: Ratio of product peak harvest value (in 2010 USD) divided by sum of all product peak harvest values, per region
+## np_harvest_product_weight
+
+Ratio of product peak harvest value (in 2010 USD) divided by sum of all product peak harvest values, per region
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1352,7 +1512,9 @@ toc: true
 
 
 
-## np_harvest_tonnes: Harvest yield of marine natural products, smoothed
+## np_harvest_tonnes
+
+Harvest yield of marine natural products, smoothed
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1371,7 +1533,9 @@ toc: true
 
 
 
-## np_harvest_tonnes_relative: Harvest ratio to peak yeild of marine natural products
+## np_harvest_tonnes_relative
+
+Harvest ratio to peak yeild of marine natural products
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1390,7 +1554,9 @@ toc: true
 
 
 
-## np_harvest_usd: Harvest value of marine natural products, smoothed
+## np_harvest_usd
+
+Harvest value of marine natural products, smoothed
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1409,7 +1575,9 @@ toc: true
 
 
 
-## np_harvest_usd_relative: Harvest ratio to peak value of marine natural products
+## np_harvest_usd_relative
+
+Harvest ratio to peak value of marine natural products
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1428,7 +1596,9 @@ toc: true
 
 
 
-## po_chemicals: Ocean-based chemical pollution
+## po_chemicals
+
+Ocean-based chemical pollution
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1447,7 +1617,9 @@ toc: true
 
 
 
-## po_chemicals_3nm: Land-based chemical pollution
+## po_chemicals_3nm
+
+Land-based chemical pollution
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1466,7 +1638,9 @@ toc: true
 
 
 
-## po_nutrients: Ocean nutrient pollution
+## po_nutrients
+
+Ocean nutrient pollution
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1485,7 +1659,9 @@ toc: true
 
 
 
-## po_nutrients_3nm: Coastal nutrient pollution
+## po_nutrients_3nm
+
+Coastal nutrient pollution
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1504,7 +1680,9 @@ toc: true
 
 
 
-## po_pathogens: Access to improved sanitation as a proxy for pathogen pollution
+## po_pathogens
+
+Access to improved sanitation as a proxy for pathogen pollution
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1523,7 +1701,9 @@ toc: true
 
 
 
-## po_trash: Trash pollution
+## po_trash
+
+Trash pollution
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1542,7 +1722,9 @@ toc: true
 
 
 
-## rgn_area: Region area of total EEZ ocean
+## rgn_area
+
+Region area of total EEZ ocean
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1561,7 +1743,9 @@ toc: true
 
 
 
-## rgn_area_inland1km: Region area 1 km inland
+## rgn_area_inland1km
+
+Region area 1 km inland
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1574,7 +1758,9 @@ toc: true
 
 
 
-## rgn_area_offshore3nm: Region area offshore 3nm
+## rgn_area_offshore3nm
+
+Region area offshore 3nm
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1593,7 +1779,9 @@ toc: true
 
 
 
-## rgn_georegion_labels: Georegion labels per region, at 3 georegion levels
+## rgn_georegion_labels
+
+Georegion labels per region, at 3 georegion levels
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1612,7 +1800,9 @@ toc: true
 
 
 
-## rgn_georegions: Georegion ids per region, at 3 georegion levels
+## rgn_georegions
+
+Georegion ids per region, at 3 georegion levels
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1631,7 +1821,9 @@ toc: true
 
 
 
-## rgn_global: regions used in global analysis for Nature 2012, subset of regions_labels by type=eez and not deleted or disputed 
+## rgn_global
+
+regions used in global analysis for Nature 2012, subset of regions_labels by type=eez and not deleted or disputed 
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1644,7 +1836,9 @@ toc: true
 
 
 
-## rgn_labels: regions by type (eez, subocean, unclaimed) and label
+## rgn_labels
+
+regions by type (eez, subocean, unclaimed) and label
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1657,7 +1851,9 @@ toc: true
 
 
 
-## sp_alien: Alien species
+## sp_alien
+
+Alien species
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1676,7 +1872,9 @@ toc: true
 
 
 
-## sp_genetic: Introduced species as a proxy for genetic escapes 
+## sp_genetic
+
+Introduced species as a proxy for genetic escapes 
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1695,7 +1893,9 @@ toc: true
 
 
 
-## species_diversity: Ocean ecological integrity
+## species_diversity
+
+Ocean ecological integrity
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1714,7 +1914,9 @@ toc: true
 
 
 
-## species_diversity_3nm: Coastal ecological integrity
+## species_diversity_3nm
+
+Coastal ecological integrity
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1733,7 +1935,9 @@ toc: true
 
 
 
-## spp_status: Species lists and IUCN threat categories as a proxy for iconic species status
+## spp_status
+
+Species lists and IUCN threat categories as a proxy for iconic species status
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1752,7 +1956,9 @@ toc: true
 
 
 
-## spp_trend: Species lists and IUCN threat categories as a proxy for iconic species trend
+## spp_trend
+
+Species lists and IUCN threat categories as a proxy for iconic species trend
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1771,7 +1977,9 @@ toc: true
 
 
 
-## ss_wgi: Weakness of governance indicated with the WGI
+## ss_wgi
+
+Weakness of governance indicated with the WGI
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1790,7 +1998,9 @@ toc: true
 
 
 
-## tourism: CBD survey: tourism
+## tourism
+
+CBD survey: tourism
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1809,7 +2019,9 @@ toc: true
 
 
 
-## tr_jobs_total: Total labor force
+## tr_jobs_total
+
+Total labor force
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1828,7 +2040,9 @@ toc: true
 
 
 
-## tr_jobs_tourism: Direct employment in tourism
+## tr_jobs_tourism
+
+Direct employment in tourism
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1847,7 +2061,9 @@ toc: true
 
 
 
-## tr_sustainability: Sustainability index
+## tr_sustainability
+
+Sustainability index
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1860,7 +2076,9 @@ toc: true
 
 
 
-## tr_unemployment: Percent unemployment
+## tr_unemployment
+
+Percent unemployment
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1879,7 +2097,9 @@ toc: true
 
 
 
-## water: CBD survey: water
+## water
+
+CBD survey: water
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
@@ -1898,7 +2118,9 @@ toc: true
 
 
 
-## wgi_all: Strength of governance indicated with the WGI
+## wgi_all
+
+Strength of governance indicated with the WGI
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
