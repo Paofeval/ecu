@@ -3,22 +3,22 @@
 - title: App
   url: /app
   excerpt: "Interactive application to explore existing layers and scores."
-  image: 400x250.gif
+  image: app_400x250.png
 
 - title: Docs
   url: /docs
   excerpt: "Documentation to get started with editing files."
-  image: 400x250.gif
+  image: docs_400x250.png
 
 - title: Regions
   url: /regions
   excerpt: "Spatial analytical units at subcountry level having various buffer distances inland and offshore."
-  image: 400x250.gif
+  image: regions_400x250.png
 
 - title: Layers
   url: /layers
   excerpt: "Input data files generally defined per region."
-  image: 400x250.gif
+  image: layers_400x250.png
 
 - title: Goals
   url: /goals
@@ -28,4 +28,4 @@
 - title: Scores
   url: /scores
   excerpt: "Scores calculated using the OHI framework and input elements (regions, layers, goals)."
-  image: 400x250.gif
+  image: scores_400x250.png
