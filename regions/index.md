@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "Layers"
-excerpt: "OHI layers for Ecuador"
+title: "Regions"
+excerpt: "OHI regions for Ecuador"
 share: false
 ads: false
 branch: published
