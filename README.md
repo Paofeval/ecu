@@ -21,5 +21,3 @@ Build status of branches:
   not applicable (because deployment of the Shiny app is done by OHI-Science internally)
 
 For more details, see http://ohi-science.org/ecu/docs.
-
-
