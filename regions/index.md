@@ -4,8 +4,7 @@ title: "Regions"
 excerpt: "OHI regions for Ecuador"
 share: false
 ads: false
-branch: published
-scenario: subcountry2014
+branch_scenario: published/subcountry2014
 toc: true
 ---
 

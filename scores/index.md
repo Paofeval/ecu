@@ -4,13 +4,33 @@ title: "Scores"
 excerpt: "OHI scores for Ecuador and regions contained"
 share: false
 ads: false
-branch: published
-scenario: subcountry2014
+branch_scenario: published/subcountry2014
 toc: true
 ---
 
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Branch/Scenario</a>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-1">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+            {{ page.branch_scenario }}
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+                      <li><a href="{{ site.baseurl }}/draft/subcountry2014/scores">draft/subcountry2014</a></li>
+                    </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-## Ecuador [0]
+
+## Ecuador
   
 ![]({{ site.baseurl }}/results/published/subcountry2014/figures/flower_GLOBAL.png)
 
@@ -38,7 +58,7 @@ toc: true
 
 
 
-## El Oro [1]
+## El Oro
   
 ![]({{ site.baseurl }}/results/published/subcountry2014/figures/flower_El_Oro.png)
 
@@ -66,7 +86,7 @@ toc: true
 
 
 
-## Esmeraldas [5]
+## Esmeraldas
   
 ![]({{ site.baseurl }}/results/published/subcountry2014/figures/flower_Esmeraldas.png)
 
@@ -94,7 +114,7 @@ toc: true
 
 
 
-## Galápagos [4]
+## Galápagos
   
 ![]({{ site.baseurl }}/results/published/subcountry2014/figures/flower_Galápagos.png)
 
@@ -122,7 +142,7 @@ toc: true
 
 
 
-## Guayas [2]
+## Guayas
   
 ![]({{ site.baseurl }}/results/published/subcountry2014/figures/flower_Guayas.png)
 
@@ -150,7 +170,7 @@ toc: true
 
 
 
-## Manabi [3]
+## Manabi
   
 ![]({{ site.baseurl }}/results/published/subcountry2014/figures/flower_Manabi.png)
 
