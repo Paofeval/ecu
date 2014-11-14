@@ -20,7 +20,7 @@ Alien species
 |-------------------|----------------------------------------------------------------------|
 | filename          | alien_species_gl2014.csv                                                   |
 | value units       | resilience score                                                      |
-| value range       | 0.1 to 0.9                               |
+| value range       | 0.625 to 0.625                               |
 | global extraction | equal: global resilience data were applied equally to all regions. |
 
 <p>The number and type of invasive and harmful invasive species in each marine ecoregion (Molnar et al. 2008). </p>
@@ -49,7 +49,7 @@ Fisheries management effectiveness and opportunity
 <p>Data sources:</p>
 
 <ul>
-<li>Mora, C., Myers, R.A., Coll, M., Libralato, S., Pitcher, T.J., Sumaila, R.U., Worm, B. (2009). <strong>Management Effectiveness of the Worldï¿s Marine Fisheries</strong>. <em>PLoS Biol</em>, 7(6), e1000131. <a href="http://dx.doi.org/10.1371/journal.pbio.1000131">doi:10.1371/journal.pbio.1000131</a></li>
+<li>Mora, C., Myers, R.A., Coll, M., Libralato, S., Pitcher, T.J., Sumaila, R.U., Worm, B. (2009). <strong>Management Effectiveness of the Worldￕs Marine Fisheries</strong>. <em>PLoS Biol</em>, 7(6), e1000131. <a href="http://dx.doi.org/10.1371/journal.pbio.1000131">doi:10.1371/journal.pbio.1000131</a></li>
 </ul>
 
 
@@ -184,48 +184,6 @@ Resilience from commitment to CITES
 
 
 
-## cntry_georegions
-
-Georegion ids per country, at 3 georegion levels
-
-| metadata          | value                                                                |
-|-------------------|----------------------------------------------------------------------|
-| filename          | cntry_georegions_gl2014.csv                                                   |
-| value units       | georegion id                                                      |
-| value range       | 1 to 419                               |
-| global extraction | raster: spatial data was extracted for each region.  |
-
-<p>Lookup table of country codes and UN georegions at 3 georegion levels.</p>
-
-<p>Data sources:</p>
-
-<ul>
-<li><a href="http://unstats.un.org/unsd/methods/m49/m49regin.htm">UN geographical region and composition</a></li>
-</ul>
-
-
-
-## cntry_rgn
-
-Regions per country
-
-| metadata          | value                                                                |
-|-------------------|----------------------------------------------------------------------|
-| filename          | cntry_rgn_gl2014.csv                                                   |
-| value units       | region id                                                      |
-| value range       | 1 to 5                               |
-| global extraction | raster: spatial data was extracted for each region. |
-
-<p>Lookup table of country codes (based on ISO 3166 country codes) and Ocean Health Index region idenifiers.</p>
-
-<p>Data sources:</p>
-
-<ul>
-<li><a href="http://en.wikipedia.org/wiki/ISO_3166-1">ISO 3166 country codes</a></li>
-</ul>
-
-
-
 ## cp_habitat_extent_rank
 
 Habitat extent * rank, per Coastal Protection habitats
@@ -294,7 +252,7 @@ Fertilizer consumption as a proxy for trend in nutrient pollution
 <p>Data sources:</p>
 
 <ul>
-<li><a href="http://faostat3.fao.org/faostat-gateway/go/to/browse/R/*/E">FAOâs statistical database FAOSTAT</a>.</li>
+<li><a href="http://faostat3.fao.org/faostat-gateway/go/to/browse/R/*/E">FAO’s statistical database FAOSTAT</a>.</li>
 </ul>
 
 
@@ -336,7 +294,7 @@ Pesticide consumption as a proxy for trend in chemical pollution
 <p>Data sources:</p>
 
 <ul>
-<li><a href="http://faostat3.fao.org/faostat-gateway/go/to/browse/R/*/E">FAOâs statistical database FAOSTAT</a>.</li>
+<li><a href="http://faostat3.fao.org/faostat-gateway/go/to/browse/R/*/E">FAO’s statistical database FAOSTAT</a>.</li>
 </ul>
 
 
@@ -871,9 +829,9 @@ GDP
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
-| filename          | le_gdp_gl2014.csv                                                   |
+| filename          | le_gdp_sc2014-popn-inland25km.csv                                                   |
 | value units       | 2010 USD                                                      |
-| value range       | 192388778 to 65666615437                               |
+| value range       | 1327122 to 45394887868                               |
 | global extraction | population_inland25km: global GDP data were applied to each region after weighting by each region's coastal population. |
 
 <p>Gross Domestic Product (GDP) data (reported in 2012 US dollars) from The World Bank.</p>
@@ -883,81 +841,6 @@ GDP
 <ul>
 <li><a href="data.worldbank.org/indicator/NY.GDP.MKTP.CD">The World Bank</a></li>
 </ul>
-
-
-
-## le_gdp_pc_ppp
-
-Modeled Livelihoods & Economies data
-
-| metadata          | value                                                                |
-|-------------------|----------------------------------------------------------------------|
-| filename          | le_gdp_pc_ppp_gl2014.csv                                                   |
-| value units       | USD                                                      |
-| value range       | 2961.671 to 9737.682                               |
-| global extraction | population_inland25km:  |
-
-<p>gross domestic product per person at purchasing power parity</p>
-
-
-
-## le_jobs_cur_adj_value
-
-Modeled Livelihoods & Economies data
-
-| metadata          | value                                                                |
-|-------------------|----------------------------------------------------------------------|
-| filename          | le_jobs_cur_adj_value_gl2014.csv                                                   |
-| value units       | value                                                      |
-| value range       | 92.30787 to 93.93445                               |
-| global extraction | population_inland25km:  |
-
-<p>One of current or reference and base or adjusted value</p>
-
-
-
-## le_jobs_cur_base_value
-
-Modeled Livelihoods & Economies data
-
-| metadata          | value                                                                |
-|-------------------|----------------------------------------------------------------------|
-| filename          | le_jobs_cur_base_value_gl2014.csv                                                   |
-| value units       | value                                                      |
-| value range       | 57.45 to 69908.44                               |
-| global extraction | population_inland25km:  |
-
-<p>One of current or reference and base or adjusted value</p>
-
-
-
-## le_jobs_ref_adj_value
-
-Modeled Livelihoods & Economies data
-
-| metadata          | value                                                                |
-|-------------------|----------------------------------------------------------------------|
-| filename          | le_jobs_ref_adj_value_gl2014.csv                                                   |
-| value units       | value                                                      |
-| value range       | 89.65756 to 92.26325                               |
-| global extraction | population_inland25km:  |
-
-<p>One of current or reference and base or adjusted value</p>
-
-
-
-## le_jobs_ref_base_value
-
-Modeled Livelihoods & Economies data
-
-| metadata          | value                                                                |
-|-------------------|----------------------------------------------------------------------|
-| filename          | le_jobs_ref_base_value_gl2014.csv                                                   |
-| value units       | value                                                      |
-| value range       | 15.32 to 69378.37                               |
-| global extraction | population_inland25km:  |
-
-<p>One of current or reference and base or adjusted value</p>
 
 
 
@@ -991,96 +874,6 @@ Total population by subregion
 
 
 
-## le_rev_cur_adj_value
-
-Modeled Livelihoods & Economies data
-
-| metadata          | value                                                                |
-|-------------------|----------------------------------------------------------------------|
-| filename          | le_rev_cur_adj_value_gl2014.csv                                                   |
-| value units       | value                                                      |
-| value range       | 41528680484 to 53979330701                               |
-| global extraction | population_inland25km:  |
-
-<p>One of current or reference and base or adjusted value</p>
-
-
-
-## le_rev_cur_base_value
-
-Modeled Livelihoods & Economies data
-
-| metadata          | value                                                                |
-|-------------------|----------------------------------------------------------------------|
-| filename          | le_rev_cur_base_value_gl2014.csv                                                   |
-| value units       | value                                                      |
-| value range       | 0 to 3913383985                               |
-| global extraction | population_inland25km:  |
-
-<p>One of current or reference and base or adjusted value</p>
-
-
-
-## le_rev_ref_adj_value
-
-Modeled Livelihoods & Economies data
-
-| metadata          | value                                                                |
-|-------------------|----------------------------------------------------------------------|
-| filename          | le_rev_ref_adj_value_gl2014.csv                                                   |
-| value units       | value                                                      |
-| value range       | 23167782759 to 45311174222                               |
-| global extraction | population_inland25km:  |
-
-<p>One of current or reference and base or adjusted value</p>
-
-
-
-## le_rev_ref_base_value
-
-Modeled Livelihoods & Economies data
-
-| metadata          | value                                                                |
-|-------------------|----------------------------------------------------------------------|
-| filename          | le_rev_ref_base_value_gl2014.csv                                                   |
-| value units       | value                                                      |
-| value range       | 52018.96 to 2389168062                               |
-| global extraction | population_inland25km:  |
-
-<p>One of current or reference and base or adjusted value</p>
-
-
-
-## le_rev_sector_year
-
-Revenue
-
-| metadata          | value                                                                |
-|-------------------|----------------------------------------------------------------------|
-| filename          | le_rev_sector_year_gl2014.csv                                                   |
-| value units       | 2010 USD                                                      |
-| value range       | 0 to 3913383985                               |
-| global extraction | equal: global trends were applied equally to each region.  |
-
-<p>gapfilled</p>
-
-
-
-## le_revenue_adj
-
-Modeled Livelihoods & Economies data
-
-| metadata          | value                                                                |
-|-------------------|----------------------------------------------------------------------|
-| filename          | le_revenue_adj_gl2014.csv                                                   |
-| value units       | USD                                                      |
-| value range       | 192388778 to 65666615437                               |
-| global extraction | population_inland25km:  |
-
-<p>adjusted revenue</p>
-
-
-
 ## le_sector_weight
 
 Jobs weighting
@@ -1111,66 +904,6 @@ Unemployment
 
 
 
-## le_wage_cur_adj_value
-
-Modeled Livelihoods & Economies data
-
-| metadata          | value                                                                |
-|-------------------|----------------------------------------------------------------------|
-| filename          | le_wage_cur_adj_value_gl2014.csv                                                   |
-| value units       | value                                                      |
-| value range       | 1 to 1                               |
-| global extraction | equal: global wage data were applied equally to all regions. |
-
-<p>One of current or reference and base or adjusted value</p>
-
-
-
-## le_wage_cur_base_value
-
-Modeled Livelihoods & Economies data
-
-| metadata          | value                                                                |
-|-------------------|----------------------------------------------------------------------|
-| filename          | le_wage_cur_base_value_gl2014.csv                                                   |
-| value units       | value                                                      |
-| value range       | 12374.08 to 54415.76                               |
-| global extraction | equal: global wage data were applied equally to all regions. |
-
-<p>One of current or reference and base or adjusted value</p>
-
-
-
-## le_wage_ref_adj_value
-
-Modeled Livelihoods & Economies data
-
-| metadata          | value                                                                |
-|-------------------|----------------------------------------------------------------------|
-| filename          | le_wage_ref_adj_value_gl2014.csv                                                   |
-| value units       | value                                                      |
-| value range       | 1 to 1                               |
-| global extraction | equal: global wage data were applied equally to all regions. |
-
-<p>One of current or reference and base or adjusted value</p>
-
-
-
-## le_wage_ref_base_value
-
-Modeled Livelihoods & Economies data
-
-| metadata          | value                                                                |
-|-------------------|----------------------------------------------------------------------|
-| filename          | le_wage_ref_base_value_gl2014.csv                                                   |
-| value units       | value                                                      |
-| value range       | 8336.141 to 28600.48                               |
-| global extraction | equal: global wage data were applied equally to all regions. |
-
-<p>One of current or reference and base or adjusted value</p>
-
-
-
 ## le_wage_sector_year
 
 Wages
@@ -1192,9 +925,9 @@ Modeled Livelihoods & Economies data
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
-| filename          | le_workforcesize_adj_gl2014.csv                                                   |
+| filename          | le_workforcesize_adj_sc2014-popn-inland25km.csv                                                   |
 | value units       | jobs                                                      |
-| value range       | 16304.87 to 7356009                               |
+| value range       | 112.473 to 5085160                               |
 | global extraction | population_inland25km: global workforce data were applied to each region after weighting by each region's coastal population. |
 
 <p>adjusted workforce size</p>
@@ -1237,36 +970,6 @@ Sector evenness as a measure of economic diversity
 
 
 
-## liveco_status
-
-Modeled livelihoods and economies status
-
-| metadata          | value                                                                |
-|-------------------|----------------------------------------------------------------------|
-| filename          | liveco_status_gl2014.csv                                                   |
-| value units       | status score                                                      |
-| value range       | 1 to 1                               |
-| global extraction | equal:  |
-
-<p>Modeled livelihoods and economies status based on new approach</p>
-
-
-
-## liveco_trend
-
-Modeled livelihoods and economies trend
-
-| metadata          | value                                                                |
-|-------------------|----------------------------------------------------------------------|
-| filename          | liveco_trend_gl2014.csv                                                   |
-| value units       | trend score                                                      |
-| value range       | 0.05106285 to 0.3069035                               |
-| global extraction | equal:  |
-
-<p>Modeled livelihoods and economies trend based on new approach</p>
-
-
-
 ## lsp_prot_area_inland1km
 
 Coastal protected areas inland 1km
@@ -1283,7 +986,7 @@ Coastal protected areas inland 1km
 <p>Data sources:</p>
 
 <ul>
-<li>United Nations - World Conservation Monitoring Centreâs World Database on Protected Areas (WDPA) through <a href="http://www.protectedplanet.net">Protected Planet</a></li>
+<li>United Nations - World Conservation Monitoring Centre’s World Database on Protected Areas (WDPA) through <a href="http://www.protectedplanet.net">Protected Planet</a></li>
 </ul>
 
 
@@ -1304,7 +1007,7 @@ Coastal marine protected areas offshore 3km
 <p>Data sources:</p>
 
 <ul>
-<li>United Nations - World Conservation Monitoring Centreâs World Database on Protected Areas (WDPA) through <a href="http://www.protectedplanet.net">Protected Planet</a></li>
+<li>United Nations - World Conservation Monitoring Centre’s World Database on Protected Areas (WDPA) through <a href="http://www.protectedplanet.net">Protected Planet</a></li>
 </ul>
 
 
@@ -1317,7 +1020,7 @@ Coastal population inland 25 kilometers
 |-------------------|----------------------------------------------------------------------|
 | filename          | mar_coastalpopn_inland25km_sc2014-raster.csv                                                   |
 | value units       | people                                                      |
-| value range       | 9999 to 3106500                               |
+| value range       | 22001.87 to 3590059                               |
 | global extraction | raster: spatial data was extracted for each region.  |
 
 <p>Coastal population, defined as the total population inland of 25 kilometers, extracted from Gridded Population of the World (GPW) Population Density Grid Future Estimates.</p>
@@ -1389,7 +1092,7 @@ Mariculture sustainability score
 <p>Data sources:</p>
 
 <ul>
-<li>Trujillo P. (2008). <strong>Using a mariculture sustainability index to rank countriesâ performances</strong>. In: A comparative assessment of biodiversity, fisheries and aquaculture in 53 countriesâ Exclusive Economic Zones, Alder J, Pauly D, editors. <em>Fisheries Centre Research Report</em>, vol. 16(7) p. 28â56.</li>
+<li>Trujillo P. (2008). <strong>Using a mariculture sustainability index to rank countries’ performances</strong>. In: A comparative assessment of biodiversity, fisheries and aquaculture in 53 countries’ Exclusive Economic Zones, Alder J, Pauly D, editors. <em>Fisheries Centre Research Report</em>, vol. 16(7) p. 28–56.</li>
 </ul>
 
 
@@ -1446,7 +1149,7 @@ CBD survey: mariculture
 <p>Data sources:</p>
 
 <ul>
-<li>Trujillo P. (2008). <strong>Using a mariculture sustainability index to rank countriesâ performances</strong>. In: A comparative assessment of biodiversity, fisheries and aquaculture in 53 countriesâ Exclusive Economic Zones, Alder J, Pauly D, editors. <em>Fisheries Centre Research Report</em>, vol. 16(7) p. 28â56.</li>
+<li>Trujillo P. (2008). <strong>Using a mariculture sustainability index to rank countries’ performances</strong>. In: A comparative assessment of biodiversity, fisheries and aquaculture in 53 countries’ Exclusive Economic Zones, Alder J, Pauly D, editors. <em>Fisheries Centre Research Report</em>, vol. 16(7) p. 28–56.</li>
 </ul>
 
 
@@ -1711,7 +1414,7 @@ Trash pollution
 |-------------------|----------------------------------------------------------------------|
 | filename          | po_trash_gl2014.csv                                                   |
 | value units       | pressure score                                                      |
-| value range       | 0.1 to 1                               |
+| value range       | 0.6063643 to 0.6063643                               |
 | global extraction | equal: global pressures data were applied equally to all regions. |
 
 <p>Density of trash from coastal land and sea (Ocean Conservancy). </p>
@@ -1890,7 +1593,7 @@ Introduced species as a proxy for genetic escapes
 <p>Data sources:</p>
 
 <ul>
-<li>Trujillo P. (2008). <strong>Using a mariculture sustainability index to rank countriesâ performances</strong>. In: A comparative assessment of biodiversity, fisheries and aquaculture in 53 countriesâ Exclusive Economic Zones, Alder J, Pauly D, editors. <em>Fisheries Centre Research Report</em>, vol. 16(7) p. 28â56.</li>
+<li>Trujillo P. (2008). <strong>Using a mariculture sustainability index to rank countries’ performances</strong>. In: A comparative assessment of biodiversity, fisheries and aquaculture in 53 countries’ Exclusive Economic Zones, Alder J, Pauly D, editors. <em>Fisheries Centre Research Report</em>, vol. 16(7) p. 28–56.</li>
 </ul>
 
 
