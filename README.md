@@ -3,7 +3,7 @@
 Build status of branches:
 
 - [**draft**](https://github.com/OHI-Science/ecu/tree/draft)
-- 
+
   [![](https://api.travis-ci.org/OHI-Science/ecu.svg?branch=draft)](https://travis-ci.org/OHI-Science/ecu/branches)
 
 - [**published**](https://github.com/OHI-Science/ecu/tree/published) 
