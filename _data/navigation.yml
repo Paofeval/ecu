@@ -5,11 +5,6 @@
   excerpt: "Interactive application to explore existing layers and scores."
   image: app_400x250.png
 
-- title: Docs
-  url: /docs
-  excerpt: "Documentation to get started with editing files."
-  image: docs_400x250.png
-
 - title: Regions
   url: /regions
   excerpt: "Spatial analytical units at subcountry level having various buffer distances inland and offshore."

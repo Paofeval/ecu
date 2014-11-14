@@ -3,11 +3,11 @@
 - title: Home
   url: /
 
-- title: App
-  url: /app
-
 - title: Docs
   url: /docs
+
+- title: FAQ
+  url: /faq
 
 - title: About
   url: /about
