@@ -1,4 +1,4 @@
-# OHI Ecuador (ECU) - Github Pages (gh-pages) branch
+# OHI Ecuador - Github Pages (gh-pages) branch
 
 [![](https://travis-ci.org/OHI-Science/<%=key%>/svg?branch=gh-pages)](https://travis-ci.org/OHI-Science/<%=key%>?branch=gh-pages)
 
