@@ -9,7 +9,7 @@ before_install:
 install:
 - ./travis-tool.sh install_r zoo
 - ./travis-tool.sh install_r psych
-- ./travis-tool.sh install_r git2r
+- ./travis-tool.sh install_github ropensci/git2r
 - ./travis-tool.sh install_github ohi-science/rCharts
 - ./travis-tool.sh install_github ohi-science/ohicore@dev # @master or @2f7a3d7 to specify by commit (https://github.com/OHI-Science/ohicore/commits/master)
 
