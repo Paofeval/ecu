@@ -41,6 +41,5 @@ branches:
 env:
   global:
   - secure: MxndVJugIbNZOL/5Tqy9dBX1WQMSbIT4rjq+zByq3aURQ4w9DOuR4I6LD4rYuLtXnaBqE1m2ocAf5WuQ5uA0R/JwiDL688NpVoIAuHDXtUxoXbgX3uHRS6espQmMzs+4MuVkliXld4/68GQpKWUkCbI/HEdvR4SXN40Uba4/Ptc=
-  - default_scenario="subcountry2014"
-  - default_branch="published"
+  - default_branch_scenario="published/subcountry2014"
   - study_area="Ecuador"
