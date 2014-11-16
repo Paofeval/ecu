@@ -1157,12 +1157,13 @@ LIV_ECO = function(layers, subgoal){
       # across sectors, wages are averaged
       wages_avg = mean(wage_usd, na.rm=T)) %>%
     group_by(rgn_id) %>%
+    arrange(rgn_id, year) %>%
     mutate(
       # reference for jobs [j]: value in the current year (or most recent year) [c], relative to the value in a recent moving reference period [r] defined as 5 years prior to [c]
-      jobs_sum_first  = first(jobs_sum , order_by=year),
+      jobs_sum_first  = first(jobs_sum),                     # note:  `first(jobs_sum, order_by=year)` caused segfault crash on Linux with dplyr 0.3.0.2, so using arrange above instead
       # original reference for wages [w]: target value for average annual wages is the highest value observed across all reporting units
       # new reference for wages [w]: value in the current year (or most recent year) [c], relative to the value in a recent moving reference period [r] defined as 5 years prior to [c]
-      wages_avg_first = first(wages_avg, order_by=year)) %>%
+      wages_avg_first = first(wages_avg)) %>% # note:  `first(jobs_sum, order_by=year)` caused segfault crash on Linux with dplyr 0.3.0.2, so using arrange above instead
     # calculate final scores
     ungroup() %>%
     mutate(
