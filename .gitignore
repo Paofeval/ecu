@@ -1,3 +1,6 @@
 .Rproj.user
 .Rhistory
 .RData
+ohi-travis-functions.R
+travis.sh
+travis-tool.sh
