@@ -83,58 +83,25 @@ Here's the workflow for working with files and cascading these edits. Note that 
 
     [<svg xmlns="http://www.w3.org/2000/svg" width="81" height="18"><linearGradient id="a" x2="0" y2="100%"><stop offset="0" stop-color="#fff" stop-opacity=".7"/><stop offset=".1" stop-color="#aaa" stop-opacity=".1"/><stop offset=".9" stop-opacity=".3"/><stop offset="1" stop-opacity=".5"/></linearGradient><rect rx="4" width="81" height="18" fill="#555"/><rect rx="4" x="37" width="44" height="18" fill="#e05d44"/><path fill="#e05d44" d="M37 0h4v18h-4z"/><rect rx="4" width="81" height="18" fill="url(#a)"/><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11"><text x="19.5" y="14" fill="#010101" fill-opacity=".3">build</text><text x="19.5" y="13">build</text><text x="58" y="14" fill="#010101" fill-opacity=".3">failing</text><text x="58" y="13">failing</text></g></svg>](https://travis-ci.org/{{ site.git_slug }})
 
-### draft branch
+## draft branch
 
 ```bash
-ecu
-├── .travis.yml                 # directives to calculate scores and publish
-```
-
-### gh-pages branch
-
-```bash
-ecu
-├── _site                               # compiled site ready to deploy
-├── _images                             # unoptimized images
-├── _includes                           # reusable blocks for _layouts
-├── _layouts
-|    ├── archive.html                   # archive listing of a group of posts or collection
-|    ├── article.html                   # articles, blog posts, text heavy material layout
-|    ├── default.html                   # base
-|    ├── home.html                      # home page
-|    └── media.html                     # portfolio, work, media layout
-├── _posts                              # posts grouped by category for sanity
-├── _sass
-|   ├── vendor
-|   |   ├── bourbon                     # Bourbon mixin library
-|   |   └── neat                        # Neat grid library
-|   ├── _animations.scss                # CSS3 animations
-|   ├── _badges.scss                    # small badges
-|   ├── _bullets.scss                   # visual bullets
-|   ├── _buttons.scss                   # buttons
-|   ├── _grid-settings.scss             # Neat settings
-|   ├── _helpers.scss                   # site wide helper classes
-|   ├── _layout.scss                    # structure and placement, the bulk of the design
-|   ├── _mixins.scss                    # custom mixins
-|   ├── _notices.scss                   # notice blocks
-|   ├── _pygments.scss                  # Pygments.rb syntax highlighting
-|   ├── _reset.scss                     # normalize and reset elements
-|   ├── _sliding-menu.scss              # sliding menu overlay
-|   ├── _variables.scss                 # global colors and fonts
-|   ├── css
-|   └── main.scss                       # loads all Sass partials
-├── fonts                               # webfonts
-├── images                              # images
-├── js
-|   ├── plugins                         # jQuery plugins
-|   ├── vendor                          # vendor scripts that don't get combined with the rest
-|   ├── _main.js                        # site scripts and plugin settings go here
-|   └── main.min.js                     # concatenated and minified site scripts
-├── apple-touch-icon-precomposed.png    # 152x152 px for iOS
-├── atom.xml                            # posts feed
-├── favicon.ico                         # 32x32 px for browsers
-└── index.md                            # homepage content
-└── _config.yml                         # Jekyll settings
+{{ site.git_repo }}
+subcountry2014
+├── conf
+|   ├── config.R                # configuration parameters
+|   ├── functions.R             # functions for calculating goals
+|   ├── goals.csv               # table of goal parameters
+|   ├── pressures_matrix.csv    # table of goals (rows) vs pressure layers (cols)
+|   ├── resilience_matrix.csv   # table of goals (rows) vs resilience layers (cols)
+|   └── resilience_weights.csv  # table of weights per resilience layer
+├── layers                      # layers
+|   ├── *.csv                   # layer data files
+|   └── ...
+├── reports                     # table and figure results
+├── spatial                     # spatial
+├── tmp                         # temporary files
+└── .travis.yml                 # directives to calculate scores and publish
 ```
 
 ---
@@ -149,34 +116,42 @@ Please refer to the **Ocean Health Index Toolbox Manual** for instructions on ho
 
 # The **{{ site.git_repo }}** repository has been extracted from the global repository
 
-This repository is a starting point for your assessment. Information for !study_area has been extracted from the global assessment and will serve as a template to modify to better represent the local charactistics of !study_area. This is to say that all data within this repository are based on global databases where !study_area is represented at the national scale.  
+This repository is a starting point for your assessment. Information for {{ site.study_area }} has been extracted from the global assessment and will serve as a template to modify to better represent the local charactistics of {{ site.study_area }}. This is to say that all data within this repository are based on global databases where {{ site.study_area }} is represented at the national scale.  
 
-With **{{ site.git_repo }}**, you will calculate scores for each region within !study_area and combine them into a single score for !study_area. You will be able to substitute much of the global data provided with locally-available data and indicators, and you will be able to modify the goal models to better reflect local data and priorities. This will provide a finer-scale understanding of ocean health in !study_area.  
+With **{{ site.git_repo }}**, you will calculate scores for each region within {{ site.study_area }} and combine them into a single score for {{ site.study_area }}. You will be able to substitute much of the global data provided with locally-available data and indicators, and you will be able to modify the goal models to better reflect local data and priorities. This will provide a finer-scale understanding of ocean health in {{ site.study_area }}.  
 
-## `!x` regions within !study_area
+## Regions within {{ site.study_area }}
 
-Whereas in the global assessments, !study_area was one region combined within the study area (the entire world), here, !study_area is the study area, which contains `!x` subcountry coastal regions: `!listed_here`.  
+Whereas in the global assessments, the entire study area was the globe and {{ site.study_area }} was just one region, here {{ site.study_area }} is the entire study area containing many regions within.
 
-These regions were identified by Global Administrative Areas (www.gadm.org) as being the largest subcountry unit within !study_area. The boundaries of these regions have been extended offshore to divide the exclusive economic zone (EEZ) of !study_area into portions for each subcountry region. These regions have been provided because in previously completed regional assessment, this is often the scale at which data are available and policy decisions are made. However, it is possible to use different regions than the ones provided here. See [ohi-science.org/pages/create_regions.html](http://ohi-science.org/pages/create_regions.html) for more details.  
+{% capture regions_csv %}regions_{{ site.default_branch_scenario | replace:'/','_' }}{% endcapture %}
+{% assign regions = site.data[regions_csv] %}
+
+| ID               | NAME            |
+|-----------------:|:----------------|
+{% for rgn in regions %}| {{ rgn.region_id }} | {{ rgn.rgn_title }} |
+{% endfor %}
+
+Note that the entire study area {{ site.study_area }} has a special region ID of 0. The ID numbers of the contained regions were assigned geographically in order of increasing longitude. These regions were identified by Global Administrative Areas (www.gadm.org) as being the largest subcountry unit within {{ site.study_area }}. The boundaries of these regions have been extended offshore to divide the exclusive economic zone (EEZ) of {{ site.study_area }} into portions for each subcountry region. These regions have been provided because in previously completed regional assessment, this is often the scale at which data are available and policy decisions are made. However, it is possible to use different regions than the ones provided here. See [ohi-science.org/pages/create_regions.html](http://ohi-science.org/pages/create_regions.html) for more details.  
 
 ## OHI {{ site.study_area }} online display
 
-An online version of the Toolbox App display has been created for !study_area, showing the `!x` regions. This display is easy to share with your colleagues. You will find this at this url:
+An online version of the Toolbox App display has been created for {{ site.study_area }}, showing the `!x` regions. This display is easy to share with your colleagues. You will find this at this url:
 
-> **https://ohi-science.shinyapps.io/!study_area/**
+> **{{ site.app_url }}**
 
 This website will display the Input Data and Output Scores from the OHI {{ site.study_area }} on GitHub: [github.com/{{ site.git_slug }}](https://github.com/OHI-Science/{{ site.git_repo }}). Originally, these data are This displays the information on GitHub on a webpage that is easy to share.
 
 
 # File System
 
-Within the !repo repository is **subcountry2014**, the scenario folder. This contains all the data, functions and other files required to calculate the OHI scores for the `!x` regions within !study_area. You will modify the files within this folder to complete your assessment.
+Within the !repo repository is **subcountry2014**, the scenario folder. This contains all the data, functions and other files required to calculate the OHI scores for the `!x` regions within {{ site.study_area }}. You will modify the files within this folder to complete your assessment.
 
 ## Data
 
 All data used to calculate OHI scores are contained within the `layers` folder, and the `layers.csv` file acts as a registry for managing all data. In most cases, data provided within the `layers` folder are only place-holders and should be replaced by local, finer-resolution data for your assessment.  
 
-Values within the *.csv* files are based on values for all of !study_area and if data are available locally by region, this will allow for a much more precise assessment of ocean health in !study_area. Any data layers that did not have available values for !study_area have place-holder values based on the global mean and are listed in `layers-empty_swapping-global-mean.csv`.
+Values within the *.csv* files are based on values for all of {{ site.study_area }} and if data are available locally by region, this will allow for a much more precise assessment of ocean health in {{ site.study_area }}. Any data layers that did not have available values for {{ site.study_area }} have place-holder values based on the global mean and are listed in `layers-empty_swapping-global-mean.csv`.
 
 ### *layers.csv*
 
@@ -206,7 +181,7 @@ The `layers` folder contains every data layer as an individual comma separated v
 
 Open any *.csv* file within `layers` and note two important things:
 
-1. There are `!x` numbers represented within the data file: these are unique region identifiers *rgn_id*s for each coastal region in !study_area. The layer called `rgn_layers.csv` identifies which *rgn_id* is associated with which number.
+1. There are `!x` numbers represented within the data file: these are unique region identifiers *rgn_id*s for each coastal region in {{ site.study_area }}. The layer called `rgn_layers.csv` identifies which *rgn_id* is associated with which number.
 2. There is a specific format that the Toolbox expects and requires that every *.csv* file within the `layers` folder has. Note the unique region identifier (*rgn_id*) with a single associated *score* or *value*, and that the data are presented in ‘long format’ with minimal columns. See the *Formatting Data for the Toolbox* section of the OHI-Manual for more details.
 
 
@@ -237,9 +212,9 @@ g_rgns = g %>%
          rgn_nam != ra)
 ```
 
-If information for !study_area was not available for a certain data layer, it was often gapfilled using an average of other values within its georegion. Georegions are defined by the United Nations ([unstats.un.org/unsd/methods/m49/m49regin.htm](http://unstats.un.org/unsd/methods/m49/m49regin.htm)). The other countries within the georegion with !study_area are: `r g_rgns$rgn_nam`.  
+If information for {{ site.study_area }} was not available for a certain data layer, it was often gapfilled using an average of other values within its georegion. Georegions are defined by the United Nations ([unstats.un.org/unsd/methods/m49/m49regin.htm](http://unstats.un.org/unsd/methods/m49/m49regin.htm)). The other countries within the georegion with {{ site.study_area }} are: `r g_rgns$rgn_nam`.  
 
-***layers-empty_swapping-global-mean.csv*** is a list of data layers that did not have values for !study_area and were not able to be gapfilled georegionally. This is because calculated scores of other nearby countries were used to gapfill values for !study_area instead of gapfilling occurring at the regional level. These layers especially should be substituted with local data.
+***layers-empty_swapping-global-mean.csv*** is a list of data layers that did not have values for {{ site.study_area }} and were not able to be gapfilled georegionally. This is because calculated scores of other nearby countries were used to gapfill values for {{ site.study_area }} instead of gapfilling occurring at the regional level. These layers especially should be substituted with local data.
 
 
 ## *conf* folder
@@ -309,4 +284,4 @@ Running `launch_app_code.r` from within the `subcountry2014` folder will launch 
 You will run `calculate_scores.r` when you are ready to calculate scores with your local data and goal models. `calculate_scores.r` calls other functions within the Toolbox to calculate goal scores using the *.csv* files in the *layers* folder that are registered in *layers.csv* and the configurations identified in *config.r*. Scores will be saved in *scores.csv*.
 
 ## scores.csv
-`scores.csv` reports the calculated scores for the assessment. Scores are reported for each dimension (future, pressures, resilience, score, status, trend) for each reporting region. The scores here were calculated using the data in the repository (extracted from the global assessment) simply to demonstrate the Toolbox has functioned properly. Note that in `scores.csv` there are `!x + 1` region identifiers (*rgn_id*). The combined score for the !study_area is reported in *rgn_id* 0.
+`scores.csv` reports the calculated scores for the assessment. Scores are reported for each dimension (future, pressures, resilience, score, status, trend) for each reporting region. The scores here were calculated using the data in the repository (extracted from the global assessment) simply to demonstrate the Toolbox has functioned properly. Note that in `scores.csv` there are `!x + 1` region identifiers (*rgn_id*). The combined score for the {{ site.study_area }} is reported in *rgn_id* 0.

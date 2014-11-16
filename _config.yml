@@ -13,6 +13,7 @@ git_owner: ohi-science
 git_repo: ecu
 git_slug: ohi-science/ecu
 app_url:  https://ohi-science.shinyapps.io/ecu_app
+default_branch_scenario: published/subcountry2014
 
 # Jekyll configuration
 
