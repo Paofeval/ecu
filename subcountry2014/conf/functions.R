@@ -1156,15 +1156,37 @@ LIV_ECO = function(layers, subgoal){
       jobs_sum  = sum(jobs_adj, na.rm=T),
       # across sectors, wages are averaged
       wages_avg = mean(wage_usd, na.rm=T)) %>%
-    group_by(rgn_id) %>%
+    group_by(rgn_id)
+
+  cat('liv_status = liv_status %>% A\n')
+  browser()
+  write.csv(liv_status, 'tmp/liv_status.csv', row.names=F)
+  #liv_status =
+
+  setwd('~/ecu/subcountry2014')
+  library(dplyr)
+  read.csv('tmp/liv_status.csv') %>% group_by(rgn_id) %>%
+    arrange(year) %>%
     mutate(
-      # reference for jobs [j]: value in the current year (or most recent year) [c], relative to the value in a recent moving reference period [r] defined as 5 years prior to [c]
+      jobs_sum_first  = first(jobs_sum))
+
+
+  liv_status = liv_status %>%
+    mutate(
       jobs_sum_first  = first(jobs_sum , order_by=year),
-      # original reference for wages [w]: target value for average annual wages is the highest value observed across all reporting units
-      # new reference for wages [w]: value in the current year (or most recent year) [c], relative to the value in a recent moving reference period [r] defined as 5 years prior to [c]
       wages_avg_first = first(wages_avg, order_by=year)) %>%
-    # calculate final scores
-    ungroup() %>%
+    ungroup()
+#     mutate(
+#       # reference for jobs [j]: value in the current year (or most recent year) [c], relative to the value in a recent moving reference period [r] defined as 5 years prior to [c]
+#       jobs_sum_first  = first(jobs_sum , order_by=year),
+#       # original reference for wages [w]: target value for average annual wages is the highest value observed across all reporting units
+#       # new reference for wages [w]: value in the current year (or most recent year) [c], relative to the value in a recent moving reference period [r] defined as 5 years prior to [c]
+#       wages_avg_first = first(wages_avg, order_by=year)) %>%
+#     # calculate final scores
+#     ungroup()
+
+  cat('liv_status = liv_status %>% B\n')
+  liv_status = liv_status %>%
     mutate(
       x_jobs  = pmax(-1, pmin(1,  jobs_sum / jobs_sum_first)),
       x_wages = pmax(-1, pmin(1, wages_avg / wages_avg_first)),
@@ -1174,7 +1196,10 @@ LIV_ECO = function(layers, subgoal){
     # format
     select(
       region_id = rgn_id,
-      score) %>%
+      score)
+
+  cat('liv_status = liv_status %>% C\n')
+  liv_status = liv_status %>%
     mutate(
       goal      = 'LIV',
       dimension = 'status')
