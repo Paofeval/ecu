@@ -18,15 +18,14 @@ image:
   <div class="tile">
     <h2 class="post-title"><i class="fa fa-globe fa-3x"></i> Explore</h2>
     <p class="post-excerpt">
-      Explore input data and calculated output scores extracted for {{ site.study_area }} from the global assessment as maps, histograms and tables in the interactive <a href="./docs">Application</a>. Then explore the subcountry regions of {{ site.study_area }}, input layers, goal models, and scores.
-      
+      Explore template input data and calculated output scores as maps, histograms and tables in the interactive <a href="./docs">Application</a>. Then dive deeper into the subcountry <a href='./regions">Regions</a> of {{ site.study_area }}, input <a href="./layers">Layers</a>, <a href="./goals">Goal models</a>, and <a href="./scores">Scores</a>.
     </p>
   </div>
 
   <div class="tile">
     <h2 class="post-title"><i class="fa fa-cubes fa-3x"></i> Build</h2>
     <p class="post-excerpt">
-      You can completely customize the input layers, subcountry regions, goal models, and even this website. 
+      Build: you can completely customize the input layers, subcountry regions, goal models, and even this website. 
       Get started with the <a href="./docs">Documentation</a>.
     </p>
   </div>
