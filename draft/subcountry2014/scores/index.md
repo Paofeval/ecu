@@ -8,7 +8,7 @@ branch_scenario: draft/subcountry2014
 toc: true
 ---
 
-<nav class="navbar navbar-default" role="navigation">   <div class="container-fluid">     <div class="navbar-header">       <a class="navbar-brand" href="#">Branch/Scenario</a>     </div>     <div class="collapse navbar-collapse" id="navbar-1">       <ul class="nav navbar-nav">         <li class="dropdown">           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">draft/subcountry2014<span class="caret"></span></a>           <ul class="dropdown-menu" role="menu">                       <li><a href="{{ site.baseurl }}/./scores">published/subcountry2014</a></li>                     </ul>         </li>       </ul>     </div>   </div> </nav>
+<nav class="navbar navbar-default" role="navigation">   <div class="container-fluid">     <div class="navbar-header">       <a class="navbar-brand" href="#">Branch/Scenario</a>     </div>     <div class="collapse navbar-collapse" id="navbar-1">       <ul class="nav navbar-nav">         <li class="dropdown">           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">draft/subcountry2014<span class="caret"></span></a>           <ul class="dropdown-menu" role="menu">                       <li><a href="{{ site.baseurl }}/./scores">published/subcountry2014</a></li>                     </ul>         </li>       </ul>     </div>   </div> </nav> 
 
 
 ## Ecuador
@@ -176,5 +176,6 @@ toc: true
 |Biodiversity                    |  78.10|  86.13|  70.06| -0.37|        NA|         NA|
 |. Habitats                      |  77.61|  89.82|  65.40| -0.52|     36.27|      58.81|
 |. Species                       |  78.58|  82.45|  74.71| -0.23|     40.98|      59.58|
+
 
 
