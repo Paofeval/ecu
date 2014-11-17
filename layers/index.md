@@ -8,6 +8,9 @@ branch_scenario: published/subcountry2014
 toc: true
 ---
 
+The following data layers are used in goal models, pressures and resilience calculations and some other supporting roles in Ocean Health Index calculations. The following data for {{ site.study_area }} were extracted from the global assessment and should serve as a template: note that many values do not have a range because they were equally extracted from the global data layer. 
+
+
 <nav class="navbar navbar-default" role="navigation">   <div class="container-fluid">     <div class="navbar-header">       <a class="navbar-brand" href="#">Branch/Scenario</a>     </div>     <div class="collapse navbar-collapse" id="navbar-1">       <ul class="nav navbar-nav">         <li class="dropdown">           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">published/subcountry2014<span class="caret"></span></a>           <ul class="dropdown-menu" role="menu">                       <li><a href="{{ site.baseurl }}/draft/subcountry2014/layers/">draft/subcountry2014</a></li>                     </ul>         </li>       </ul>     </div>   </div> </nav> 
 
 
