@@ -5,7 +5,7 @@ excerpt: "OHI regions for Ecuador"
 share: false
 ads: false
 branch_scenario: published/subcountry2014
-toc: true
+toc: false
 ---
 
 Regions are the smallest spatial analytical unit for which the Ocean Health Index is calculated. The Index for each region is then averaged by weighted offshore area to arrive at the overall Index for the study area of {{ site.study_area }}.
