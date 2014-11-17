@@ -10,7 +10,7 @@ image:
   <div class="tile">
     <h2 class="post-title"><i class="fa fa-book fa-3x"></i> Learn</h2>
     <p class="post-excerpt">
-      Learn about the <a href="http://www.oceanhealthindex.org">www.oceanhealthindex.org</a>, a holistic framework to quantify ocean health. Read the original <em>Nature</em> paper and learn how to conduct an assessment for {{ site.study_area }} at <a href="http://ohi-science.org">ohi-science.org</a>.
+      Learn about the <a href="http://www.oceanhealthindex.org">OceanHealthIndex.org</a>, a holistic framework to quantify ocean health. Read the original <em>Nature</em> paper and learn how to conduct an assessment for {{ site.study_area }} at <a href="http://ohi-science.org">ohi-science.org</a>.
     </p>
   </div>
 
