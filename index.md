@@ -2,7 +2,7 @@
 layout: home
 permalink: /
 image:
-  feature: map_effect.png
+  feature: map_1600x800.png
 ---
 
 <p class="post-excerpt">
