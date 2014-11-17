@@ -145,7 +145,7 @@ This website will display the Input Data and Output Scores from the OHI {{ site.
 
 # File System
 
-Within the !repo repository is **subcountry2014**, the scenario folder. This contains all the data, functions and other files required to calculate the OHI scores for the `!x` regions within {{ site.study_area }}. You will modify the files within this folder to complete your assessment.
+Within the {{ site.git_repo }} repository is **subcountry2014**, the scenario folder. This contains all the data, functions and other files required to calculate the OHI scores for the `!x` regions within {{ site.study_area }}. You will modify the files within this folder to complete your assessment.
 
 ## Data
 
@@ -275,7 +275,7 @@ It is important to note that the matrix identifies the pressures relevant to eac
 `resilience_weights.csv` describes the weight of various resilience layers, were determined by Halpern et al. 2012 (Nature) based on scientific literature and expert opinion.
 
 ## spatial folder
-The spatial folder contains two files: *regions_gcs.js* and *regions_gcs.geojson*. These are spatial files, one in JSON format and one in GeoJSON format. Both are maps displaying the appropriate study area and regions for the assessment. It is possible to view the regions on GitHub, which is able to render the GeoJSON format. Go to this url: [github.com/OHI-Science/!repo/blob/master/subcountry2014/spatial/regions_gcs.geojson](https://github.com/OHI-Science/!repo/blob/master/subcountry2014/spatial/regions_gcs.geojson).
+The spatial folder contains two files: *regions_gcs.js* and *regions_gcs.geojson*. These are spatial files, one in JSON format and one in GeoJSON format. Both are maps displaying the appropriate study area and regions for the assessment. It is possible to view the regions on GitHub, which is able to render the GeoJSON format. Go to this url: [github.com/OHI-Science/{{ site.git_repo }}/blob/master/subcountry2014/spatial/regions_gcs.geojson](https://github.com/OHI-Science/{{ site.git_repo }}/blob/master/subcountry2014/spatial/regions_gcs.geojson).
 
 ## *launch_app_code.R*
 Running `launch_app_code.r` from within the `subcountry2014` folder will launch the Toolbox Application, which will be displayed in a web browser. The Toolbox App will display all input data from the `layers` folder as well as the calculated scores from `scores.csv`.

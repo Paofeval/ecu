@@ -23,7 +23,7 @@ We encourage any group to use this website as a starting point, incorporating lo
 
 For more information:  
 
-- [www.oceanhealthindex.org](www.oceanhealthindex.org)  
+- [OceanHealthIndex.org](http://www.oceanhealthindex.org)  
 
 For strategic guidance:
 
