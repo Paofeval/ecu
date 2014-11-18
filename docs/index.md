@@ -36,3 +36,17 @@ The **branch** is either "draft" if in the process of editing, or "published" if
 1. [**published**](https://github.com/{{ site.git_slug }}/tree/published) branch is a vetted copy of the draft branch, not for direct editing.
 
 An Ocean Health Index **scenario** contains all the files needed to calculate scores. The most likely form of a new scenario is for assessments updated annually. For example, the existing _subcountry2014_ scenario could be copied & pasted into a new folder called _subcountry2015_ and updated with the next year's worth of data. Scenarios can also be used to explore outcomes of policy alternatives, such as implementation of a proposed Marine Protected Area network or a fisheries regulation.
+
+## App Data tab
+
+The App will start on the **Data** tab by default.
+
+The **Map** subtab shows the study area with subcountry regions. When you move your cursor over each region on the map, the region's name (with unique numerical identifier in parentheses) will appear in the top right corner of the map. A value will also appear, which is determined by the display options on the left (either Output Score or Input Layer).
+
+You may view each region as a distribution on the **Histogram** subtab and numerically on the **Table** subtab.
+
+The left panel has several drop-down menus that indicate the information being displayed. The primary distinction is whether information is prepared **Input Layers** or calculated **Output Scores**. Drop-down menus and descriptions will appear below, depending on previous selections and available options for the chosen score or layer.
+
+## App Compare tab
+
+The **Compare** tab allows you to visualize score differences between different branches, scenarios and/or commits (ie each online save). It proves most useful for error checking during the editing phase of development.
