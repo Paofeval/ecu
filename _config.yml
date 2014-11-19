@@ -1,5 +1,4 @@
 # Site wide configuration
-
 title:       "OHI Ecuador"
 description: "Ocean Health Index for Ecuador"
 flag:        flag_80x40.png
@@ -9,7 +8,7 @@ locale:      en_US
 url:         //ohi-science.org/ecu
 baseurl:     /ecu
 
-study_area: "Ecuador"
+study_area: Ecuador
 git_owner:  ohi-science
 git_repo:   ecu
 git_slug:   ohi-science/ecu

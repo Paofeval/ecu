@@ -24,7 +24,7 @@ image:
   <div class="tile">
     <h2 class="post-title"><i class="fa fa-cubes fa-3x"></i> Build</h2>
     <p class="post-excerpt">
-      Build: you can completely customize the input layers, subcountry regions, goal models, and even this website. 
+      Build: you can completely customize the input layers, subcountry regions, goal models, and even this website.
       Get started with the <a href="./docs">Documentation</a>.
     </p>
   </div>
