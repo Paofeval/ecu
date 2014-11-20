@@ -22,10 +22,10 @@ image:
   </div>
 
   <div class="tile">
-    <h2 class="post-title"><i class="fa fa-cubes fa-3x"></i> Build</h2>
+    <h2 class="post-title"><i class="fa fa-cubes fa-3x"></i> Begin</h2>
     <p class="post-excerpt">
-      Build: you can completely customize the input layers, subcountry regions, goal models, and even this website.
-      Get started with the <a href="./docs">Documentation</a>.
+      Begin conducting an assessment by modifying the Ocean Health Index framework to include local data, indicators, and priorities. Everything, including regional boundaries, input data, goal models, targets, and goal weighting can be modified and displayed through this website.
+      Learn how with the <a href="./docs">Documentation</a>.
     </p>
   </div>
 </div>
