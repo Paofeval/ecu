@@ -42,6 +42,6 @@ Regions were generated with the following inland and offshore buffers relative t
 - inland1km
 - inland25km
 
-These data are available as shapefiles as well as csv files summarizing total area per region. Since shapefiles are binary and can be large, they're best stored outside the **{{ site.git_repo }}** Github repository. Instead, you can download the:
+These data are available as shapefiles as well as csv files summarizing total area per region. Since shapefiles are binary and can be large, they're best stored outside the **{{ site.git_repo }}** Github repository. Instead, download the zipped set of shapefiles:
 
-- [{{ site.git_repo }}_shapefiles.zip](http://ohi.nceas.ucsb.edu/data/subcountry2014/{{ site.git_repo }}_shapefiles.zip).
+- [{{ site.git_repo }}_shapefiles.zip](http://ohi.nceas.ucsb.edu/data/subcountry2014/{{ site.git_repo }}_shapefiles.zip)
