@@ -14,10 +14,7 @@ Regions are the fundamental spatial units of analysis for the Ocean Health Index
 
 ![]({{ site.baseurl }}/results/{{ page.branch_scenario }}/figures/regions_600x400.png)
 
-Or see the [interactive region map on Github](https://github.com/OHI-Science/{{ site.git_repo }}/blob/{{ page.branch_scenario }}/spatial/regions_gcs.geojson).
-
-<!--script src="https://embed.github.com/view/geojson/OHI-Science/ecu/published/subcountry2014/spatial/regions_gcs.geojson"></script-->
-
+Or see the [interactive map of the offshore regions on Github](https://github.com/OHI-Science/{{ site.git_repo }}/blob/{{ page.branch_scenario }}/spatial/regions_gcs.geojson).
 
 OHI {{ site.study_area }} has the following subcountry regions, each with a unique identifier (ID):
 
