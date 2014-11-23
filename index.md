@@ -22,9 +22,9 @@ image:
   </div>
 
   <div class="tile">
-    <h2 class="post-title"><i class="fa fa-cubes fa-3x"></i> Begin</h2>
+    <h2 class="post-title"><i class="fa fa-cubes fa-3x"></i> Build</h2>
     <p class="post-excerpt">
-      Begin conducting an assessment to tailor the Ocean Health Index framework and capture local characteristics and priorities. Everything, including regional boundaries, input data, goal models, and targets can be modified and displayed through this website.
+      Build off this existing set of files to custom tailor the Ocean Health Index for {{ site.study_area }} and capture local characteristics and priorities. Everything, including regional boundaries, input data, goal models, and targets can be modified and displayed through this website.
       Get started with the <a href="./docs">Documentation</a>.
     </p>
   </div>
