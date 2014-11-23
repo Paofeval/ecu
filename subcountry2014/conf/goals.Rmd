@@ -1,6 +1,8 @@
 ---
 title: "Goals"
-output: html_document
+output:
+  html_document:
+    self_contained: false
 ---
 
 ## Food Provision: Fisheries
