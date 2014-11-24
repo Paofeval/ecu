@@ -14,7 +14,6 @@ matrix:
   fast_finish: true # finish at first failure
 
 before_install:
-- echo "GH_TOKEN:$GH_TOKEN; study_area:$study_area"
 - curl -OL http://raw.github.com/craigcitro/r-travis/master/scripts/travis-tool.sh
 - curl -OL http://raw.github.com/OHI-Science/ohi-webapps/master/ohi-travis-functions.R
 - chmod 755 ./travis-tool.sh
