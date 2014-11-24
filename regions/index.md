@@ -10,10 +10,9 @@ toc: true
 
 Regions are the fundamental spatial units of analysis for the Ocean Health Index. Scores are calculated for each region individually and then combined (with an offshore area-weighted average) to produce scores for the entire study area: {{ site.study_area }}. These template regions can be modified; they were identified as the largest subcountry division within {{ site.study_area }}.
 
-<nav class="navbar navbar-default" role="navigation">   <div class="container-fluid">     <div class="navbar-header">       <a class="navbar-brand" href="#">Branch/Scenario</a>     </div>     <div class="collapse navbar-collapse" id="navbar-1">       <ul class="nav navbar-nav">         <li class="dropdown">           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">published/subcountry2014<span class="caret"></span></a>           <ul class="dropdown-menu" role="menu">                       <li><a href="{{ site.baseurl }}/draft/subcountry2014/regions/">draft/subcountry2014</a></li>                     </ul>         </li>       </ul>     </div>   </div> </nav> 
+<nav class="navbar navbar-default" role="navigation">   <div class="container-fluid">     <div class="navbar-header">       <a class="navbar-brand" href="#">Branch/Scenario</a>     </div>     <div class="collapse navbar-collapse" id="navbar-1">       <ul class="nav navbar-nav">         <li class="dropdown">           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">published/subcountry2014<span class="caret"></span></a>           <ul class="dropdown-menu" role="menu">                       <li><a href="{{ site.baseurl }}/draft/subcountry2014/regions/">draft/subcountry2014</a></li>                     </ul>         </li>       </ul>     </div>   </div> </nav>
 
 ![]({{ site.baseurl }}/results/{{ page.branch_scenario }}/figures/regions_600x400.png)
-<!--script src="https://embed.github.com/view/geojson/OHI-Science/ecu/published/subcountry2014/spatial/regions_gcs.geojson"></script-->
 
 Or see the [interactive map of the offshore regions on Github](https://github.com/OHI-Science/{{ site.git_repo }}/blob/{{ page.branch_scenario }}/spatial/regions_gcs.geojson).
 
@@ -31,7 +30,7 @@ IDs for subcountry regions were assigned geographically by increasing longitude.
 
 Exclusive economic zones (EEZs) were identified by [www.marineregions.org/](http://www.marineregions.org) and the largest subcountry regions were identified by [gadm.org](http://www.gadm.org). Region boundaries were extended offshore to divide the EEZ of {{ site.study_area }} offshore regions. It is possible to use different regions than the ones provided here: see [ohi-science.org/pages/create_regions.html](http://ohi-science.org/pages/create_regions.html) for more details.
 
-Regions were generated with the following inland and offshore buffers relative to the shoreline, which are visualized in the graphic above within increasing opacity away from the shoreline. 
+Regions were generated with the following inland and offshore buffers relative to the shoreline, which are visualized in the graphic above within increasing opacity away from the shoreline.
 
 - offshore
 - offshore1km
@@ -43,4 +42,3 @@ Regions were generated with the following inland and offshore buffers relative t
 These data are available as shapefiles as well as csv files summarizing total area per region. Since shapefiles are binary and can be large, they're best stored outside the **{{ site.git_repo }}** Github repository. Instead, download the zipped set of shapefiles:
 
 - [{{ site.git_repo }}_shapefiles.zip](http://ohi.nceas.ucsb.edu/data/subcountry2014/{{ site.git_repo }}_shapefiles.zip)
-
