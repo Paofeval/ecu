@@ -10,7 +10,7 @@ toc: true
 
 Regions are the fundamental spatial units of analysis for the Ocean Health Index. Scores are calculated for each region individually and then combined (with an offshore area-weighted average) to produce scores for the entire study area: {{ site.study_area }}. These template regions can be modified; they were identified as the largest subcountry division within {{ site.study_area }}.
 
-<nav class="navbar navbar-default" role="navigation">   <div class="container-fluid">     <div class="navbar-header">       <a class="navbar-brand" href="#">Branch/Scenario</a>     </div>     <div class="collapse navbar-collapse" id="navbar-1">       <ul class="nav navbar-nav">         <li class="dropdown">           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">published/subcountry2014<span class="caret"></span></a>           <ul class="dropdown-menu" role="menu">                       <li><a href="{{ site.baseurl }}/draft/subcountry2014/regions/">draft/subcountry2014</a></li>                     </ul>         </li>       </ul>     </div>   </div> </nav>
+<nav class="navbar navbar-default" role="navigation">   <div class="container-fluid">     <div class="navbar-header">       <a class="navbar-brand" href="#">Branch/Scenario</a>     </div>     <div class="collapse navbar-collapse" id="navbar-1">       <ul class="nav navbar-nav">         <li class="dropdown">           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">published/subcountry2014<span class="caret"></span></a>           <ul class="dropdown-menu" role="menu">                       <li><a href="{{ site.baseurl }}/draft/subcountry2014/regions/">draft/subcountry2014</a></li>                     </ul>         </li>       </ul>     </div>   </div> </nav> 
 
 ![]({{ site.baseurl }}/results/{{ page.branch_scenario }}/figures/regions_600x400.png)
 
@@ -42,3 +42,4 @@ Regions were generated with the following inland and offshore buffers relative t
 These data are available as shapefiles as well as csv files summarizing total area per region. Since shapefiles are binary and can be large, they're best stored outside the **{{ site.git_repo }}** Github repository. Instead, download the zipped set of shapefiles:
 
 - [{{ site.git_repo }}_shapefiles.zip](http://ohi.nceas.ucsb.edu/data/subcountry2014/{{ site.git_repo }}_shapefiles.zip)
+

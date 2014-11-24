@@ -13,7 +13,6 @@ Regions are the fundamental spatial units of analysis for the Ocean Health Index
 <nav class="navbar navbar-default" role="navigation">   <div class="container-fluid">     <div class="navbar-header">       <a class="navbar-brand" href="#">Branch/Scenario</a>     </div>     <div class="collapse navbar-collapse" id="navbar-1">       <ul class="nav navbar-nav">         <li class="dropdown">           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">draft/subcountry2014<span class="caret"></span></a>           <ul class="dropdown-menu" role="menu">                       <li><a href="{{ site.baseurl }}/./regions/">published/subcountry2014</a></li>                     </ul>         </li>       </ul>     </div>   </div> </nav> 
 
 ![]({{ site.baseurl }}/results/{{ page.branch_scenario }}/figures/regions_600x400.png)
-<!--script src="https://embed.github.com/view/geojson/OHI-Science/ecu/draft/subcountry2014/spatial/regions_gcs.geojson"></script-->
 
 Or see the [interactive map of the offshore regions on Github](https://github.com/OHI-Science/{{ site.git_repo }}/blob/{{ page.branch_scenario }}/spatial/regions_gcs.geojson).
 
@@ -31,7 +30,7 @@ IDs for subcountry regions were assigned geographically by increasing longitude.
 
 Exclusive economic zones (EEZs) were identified by [www.marineregions.org/](http://www.marineregions.org) and the largest subcountry regions were identified by [gadm.org](http://www.gadm.org). Region boundaries were extended offshore to divide the EEZ of {{ site.study_area }} offshore regions. It is possible to use different regions than the ones provided here: see [ohi-science.org/pages/create_regions.html](http://ohi-science.org/pages/create_regions.html) for more details.
 
-Regions were generated with the following inland and offshore buffers relative to the shoreline, which are visualized in the graphic above within increasing opacity away from the shoreline. 
+Regions were generated with the following inland and offshore buffers relative to the shoreline, which are visualized in the graphic above within increasing opacity away from the shoreline.
 
 - offshore
 - offshore1km
