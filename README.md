@@ -1,13 +1,32 @@
-# OHI Ecuador - Github Pages (gh-pages) branch
+# Ocean Health Index for Ecuador [ecu]
 
-[![](https://travis-ci.org/OHI-Science/ecu.svg?branch=gh-pages)](https://travis-ci.org/OHI-Science/ecu/branches)
+Build status of branches:
 
+- [**draft**](https://github.com/OHI-Science/ecu/tree/draft)
+
+  [![](https://api.travis-ci.org/OHI-Science/ecu.svg?branch=draft)](https://travis-ci.org/OHI-Science/ecu/branches)
+
+- [**published**](https://github.com/OHI-Science/ecu/tree/published)
+
+  not applicable (since merely a copy of a passing draft branch)  
+
+- [**gh-pages**](https://github.com/OHI-Science/ecu/tree/gh-pages)
+
+  [![](https://api.travis-ci.org/OHI-Science/ecu.svg?branch=gh-pages)](https://travis-ci.org/OHI-Science/ecu/branches)
+  
+  Note that a "build failing" for this gh-pages branch (ie the website) could simply mean a broken link was found.
+
+- [**gh-pages**](https://github.com/OHI-Science/ecu/tree/app)
+
+  not applicable (because deployment of the Shiny app is done by OHI-Science internally)
+
+For more details, see below and http://ohi-science.org/ecu/docs.
 
 ## gh-pages: website
 
 A "build failing" for the gh-pages branch could simply mean broken links were found.
 
-The flag above provides links to the latest build results. To test this site locally, install [jekyll](http://jekyllrb.com/docs/installation/) and run:
+To test the website locally, install [jekyll](http://jekyllrb.com/docs/installation/) and run:
 
 ```bash
 jekyll serve --baseurl ''

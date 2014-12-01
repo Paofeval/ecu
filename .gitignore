@@ -1,5 +1,8 @@
 .Rproj.user
 .Rhistory
-.sass-cache
+.RData
 _site
-Thumbs.db
+_asset_bundler_cache
+.sass
+.sass-cache
+.DS_Store
