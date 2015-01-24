@@ -31,4 +31,4 @@ For strategic guidance:
 
 For technical guidance:
 
-- lowndes at conservation dot org
+- lowndes at nceas.ucsb.edu
